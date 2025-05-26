@@ -1,329 +1,595 @@
-/* ===================================== Reading Data in SAS ===================================== */
+/*==============================================================================*/
+/*==============================================================================*/
 
-/* =============================================================================================== */
-/* =============================================================================================== */
+/*
+Reading In-stream Data
+*/
+DATA temp1;
+	input subj 1-4 gender 6 height 8-9 weight 11-13;
+  	DATALINES;
+1024 1 65 125
+1167 1 68 140
+1168 2 68 190
+1201 2 72 190
+1302 1 63 115
+  	;
+RUN;
+PROC PRINT data=temp1;
+	title 'Output dataset: TEMP1';
+RUN;
 
-/* Reading In-Stream Data */
-DATA temp1; 
-	INPUT RolNum 1-4 Gender 6 Height 8-9 Weight 11-13; 
+/*==============================================================================*/
+/*==============================================================================*/
+
+/*
+Reading Data into a Permanent SAS Data Set and Printing it
+*/
+LIBNAME mydata '/home/tripathisachin130';  
+DATA mydata.temp1;
+	input subj 1-4 gender 6 height 8-9 weight 11-13;
 	DATALINES;
-1030 1 20 167
-1031 2 54 178
-1034 1 36 168
-1029 1 56 168
-1033 2 62 186
-;
+1024 1 65 125
+1167 1 68 140
+1168 2 68 190
+1201 2 72 190
+1302 1 63 115
+  	;
+RUN;
+    
+PROC PRINT data=mydata/temp1;
+	title 'Output dataset: mydata.TEMP1';
+RUN;
 
-PROC PRINT DATA = temp1; 
-	TITLE 'OUTPUT DATA: TEMP1';
-RUN; 
+/*==============================================================================*/
+/*==============================================================================*/
 
-/* Reading Data into a Permanent SAS Dataset */
-LIBNAME mydata '/home/tripathisachin130'; 
-DATA mydata.temp1; 
-	INPUT RolNum 1-4 Gender 6 Height 8-9 Weight 11-13; 
-	DATALINES;
-1030 1 20 167
-1031 2 54 178
-1034 1 36 168
-1029 1 56 168
-1033 2 62 186
-;
+/*
+Reading Data from a Raw File
+*/
+DATA temp;
+	infile '/home/tripathisachin130/Data/temp.dat';
+  	input subj 1-4 gender 6 height 8-9 weight 11-13;
+RUN;
 
-PROC PRINT DATA = mydata/temp1; 
-	TITLE 'OUTPUT DATASET - MyData.TEMP1';
-RUN; 
+PROC PRINT data=temp;
+  	title 'Output dataset: TEMP';
+RUN;
 
-/* Reading Data from a Raw File */
-DATA temp; 
- 	INFILE '/home/tripathisachin130/Data/temp.dat';
- 	INPUT RolNum 1-4 Gender 6 Height 8-9 Weight 11-13;  
+/*==============================================================================*/
+/*==============================================================================*/
 
-PROC PRINT DATA = TEMP; 
-	TITLE 'OUTPUT DATASET - TEMP'; 
-RUN; 
+/*
+Reading Data from a Raw File - 
+use of a fileref in the INFILE statement, in conjunction with a FILENAME statement
+*/
+FILENAME patients '/home/tripathisachin130/Data/temp.dat';
+DATA temp;
+  	infile patients;
+  	input subj 1-4 gender 6 height 8-9 weight 11-13;
+RUN;
+PROC PRINT data = temp;
+  	title 'Output dataset: TEMP';
+RUN;
 
-/* Using FILEREF in the INFILE statement, in conjunction with a FILENAME statement */
-FILENAME patients '/home/tripathisachin130/Data/temp.dat'; 
-DATA temp; 
- 	INFILE patients;
- 	INPUT RolNum 1-4 Gender 6 Height 8-9 Weight 11-13;  
+/*==============================================================================*/
+/*==============================================================================*/
 
-PROC PRINT DATA = TEMP; 
-	TITLE 'OUTPUT DATASET - TEMP'; 
-RUN; 
-
-/* Reading Column Input - I */ 
-DATA temp; 
- 	INPUT Subj 1-4 Name $ 6-23 Gender 25 Height 27-28 Weight 30-32; 
- 	CARDS; 
+/*
+Reading Column Input - I
+*/
+DATA temp;
+  	input subj 1-4 name $ 6-23 gender 25 height 27-28 weight 30-32;
+  	CARDS;
 1024 Alice Smith        1 65 125
 1167 Maryann White      1 68 140
-1168 Raavan Jones       2 68 190
+1168 Thomas Jones       2 68 190
 1201 Benedictine Arnold 2 68 190
 1302 Felicia Ho         1 63 115
-;
-PROC PRINT DATA = TEMP; 
-	TITLE 'OUTPUT DATA - TEMP'; 
-RUN; 
+  	;
+RUN;
+PROC PRINT data=temp;
+  	title 'Output dataset: TEMP';
+RUN;
 
-/* Reading Column Input - II */
-/* We can randomise the column names & widths in INPUT, 
-but in the data entry section, the column data must be 
-entered in actual sequence based on the width */
-DATA temp; 
-	INPUT init $ 6 f_name $ 6-16 l_name $ 18-23 
-		weight 30-32 height 27-28; 
-	CARDS; 
+/*==============================================================================*/
+/*==============================================================================*/
+
+/*
+Reading Column Input - II
+*/
+DATA temp;
+  	input init $ 6 f_name $ 6-16 l_name $ 18-23
+    	weight 30-32 height 27-28;
+  	CARDS;
 1024 Alice       Smith  1 65 125
 1167 Maryann     White  1 68 140
-1168 Raavan      Jones  2 68 190
+1168 Thomas      Jones  2    190
 1201 Benedictine Arnold 2 68 190
 1302 Felicia     Ho     1 63 115
-;
-PROC PRINT DATA = TEMP; 
-	TITLE 'OUTPUT DATA - TEMP'; 
-RUN; 
-
-/* Creating a Temporary Data based on SAS Dataset */ 
-DATA temp; 
-	SET SASHELP.CARS; 
-
-PROC PRINT DATA = temp; 
-	TITLE 'OUTPUT DATA - TEMP (SASHELP CARS)';
+	;
+RUN;
+PROC PRINT data=temp;
+  	title 'Output dataset: TEMP';
 RUN;
 
-/* Reading List Input */
-/* $ allows character variable in the data
-by default, the character variable only allows upto 8 characters
-but number variable don't have that limitation */
-DATA temp; 
-	INPUT subj name $ gender height weight;
-	CARDS; 
-1024 Alice 1 65 125
-1167 Maryann 1 68 140
-1168 Raavan 2 68 190
-1201 Benedictine 2 68 190
-1302 Felicia 1 63 115
-;
-PROC PRINT DATA = temp;
-	TITLE 'OUTPUT DATA - TEMP';
-RUN;
+/*==============================================================================*/
+/*==============================================================================*/
 
-/* Reading List Input - with Missing Value, represented by placeholder(.) */ 
-DATA temp; 
-	INPUT subj name $ gender height weight;
-	CARDS; 
-1024 Alice 1 65 125
-1167 Maryann 1 68 .
-1168 Raavan 2 68 190
-1201 Benedictine 2 . 190
-1302 Felicia . 63 115
-;
-PROC PRINT DATA = temp;
-	TITLE 'OUTPUT DATA - TEMP';
-RUN;
-
-/* Reading List Input - using DELIMITER */
-DATA temp; 
-	INFILE CARDS DELIMITER = ',';
-	INPUT subj name $ gender height weight;
-	CARDS; 
-1024,Alice,1,65,125
-1167,Maryann,1,68,.
-1168,Raavan,2,68,190
-1201,Benedictine,2,.,190
-1302,Felicia,.,63,115
-;
-PROC PRINT DATA = temp;
-	TITLE 'OUTPUT DATA - TEMP';
-RUN;
-
-/* =====================================  Input Formatting  ===================================== */
-
-/* ============================================================================================== */
-/* ============================================================================================== */
-
-/* @n Column Pointer Control - I */ 
+/*
+Creating a Temporary Data based on SAS Dataset
+*/
 DATA temp;
-	INPUT @1 subj 4. 
-		@27 height 2.
-		@39 weight 3.; 
-	DATALINES; 
-1024 Alice       Smith  1 65 12/01/90 125
-1167 Maryann     White  1 68 13/12/86 140
-1168 Raavan      Jones  2 68 17/05/89 190
-1201 Benedictine Arnold 2 68 13/12/86 190
-1302 Felicia     Ho     1 63 13/12/86 115
-;
-
-PROC PRINT DATA = temp; 
+	set sashelp.cars;
 RUN;
 
-/* @n Column Pointer Control - II */
+PROC PRINT data=temp;
+	title 'Output dataset: TEMP';
+RUN;
+
+/*==============================================================================*/
+/*==============================================================================*/
+
+/*
+Reading List Input
+*/
 DATA temp;
-	INPUT @6 f_name $5. 
-		@18 l_name $6.
-		@39 weight 3.
+  	input subj name $ gender height weight;
+  * The $ that follows name tells SAS that it is
+    	a character variable;
+  * By default, name only allows up to 8 characters
+    	to be read in;
+  	CARDS;
+  1024 Alice 1 65 125
+  1167 Maryann 1 68 140
+  1168 Thomas 2 68 190
+  1201 Benny 2 72 190
+  1302 Felicia 1 63 115
+  	;
+RUN;
+PROC PRINT data=temp;
+  	title 'Output dataset: TEMP';
+RUN;
+
+/*==============================================================================*/
+/*==============================================================================*/
+
+/*
+Reading List Input - Missing value (.)
+*/
+DATA temp;
+  	input subj name $ gender height weight;
+  	CARDS;
+  1024 Alice 1 65 125
+  1167 Maryann 1 68 140
+  1168 Thomas 2 68 190
+  1201 Benny 2 . 190
+  1302 Felicia 1 63 115
+  	;
+RUN;
+PROC PRINT data=temp;
+ 	title 'Output dataset: TEMP';
+RUN;
+
+/*==============================================================================*/
+/*==============================================================================*/
+
+/*
+Reading List Input - Missing value (.)
+*/
+DATA temp;
+	infile cards delimiter=',';
+  	input subj name $ gender height weight;
+  	CARDS;
+  1024,Alice,1,65,125
+  1167,Maryann,1,68,140
+  1168,Thomas,2,68,190
+  1201,Benny,2,.,190
+  1302,Felicia,1,63,115
+  	;
+RUN;
+PROC PRINT data=temp;
+  	title 'Output dataset: TEMP';
+RUN;
+
+/*==============================================================================*/
+/*==============================================================================*/
+
+/*
+@n column pointer control - I
+*/
+DATA temp;
+  	input @1  subj 4. 
+        @27 height 2. 
+        @30 weight 3.;
+  	DATALINES;
+1024 Alice       Smith  1 65 125 12/1/95  2,036
+1167 Maryann     White  1 68 140 12/01/95 1,800
+1168 Thomas      Jones  2    190 12/2/95  2,302
+1201 Benedictine Arnold 2 68 190 11/30/95 2,432
+1302 Felicia     Ho     1 63 115 1/1/96   1,972
+  	;
+RUN;
+PROC PRINT data = temp;
+  	title 'Output dataset: TEMP';
+RUN;
+
+/*==============================================================================*/
+/*==============================================================================*/
+
+/*
+@n column pointer control - II
+*/
+DATA temp;
+  	input @18 l_name $6.
+        @6  f_name $11.
+		@30 weight 3.
 		@27 height 2.;
-	DATALINES; 
-1024 Alice       Smith  1 65 12/01/90 125
-1167 Maryann     White  1 68 13/12/86 140
-1168 Raavan      Jones  2 68 17/05/89 190
-1201 Benedictine Arnold 2 68 13/12/86 190
-1302 Felicia     Ho     1 63 13/12/86 115
-;
-
-PROC PRINT DATA = temp; 
+  	DATALINES;
+1024 Alice       Smith  1 65 125 12/1/95  2,036
+1167 Maryann     White  1 68 140 12/01/95 1,800
+1168 Thomas      Jones  2    190 12/2/95  2,302
+1201 Benedictine Arnold 2 68 190 11/30/95 2,432
+1302 Felicia     Ho     1 63 115 1/1/96   1,972
+  	;
+RUN;
+PROC PRINT data = temp;
+  	title 'Output dataset: TEMP';
 RUN;
 
-/* @n and +n  Column Pointer Control */ 
+/*==============================================================================*/
+/*==============================================================================*/
+
+/*
+@n & +n column pointer control
+*/
 DATA temp;
-	INPUT @1 subj 4.  
-		@6 f_name $5. 
+  	input @1  subj 4.
+        @6  f_name $11.
 		@18 l_name $6.
-		+3 height 2. 
-		; 
-	DATALINES; 
-1024 Alice       Smith  1 65 16MAR2007
-1167 Maryann     White  1 68 18FEB1995
-1168 Raavan      Jones  2 68 19NOV1990
-1201 Benedictine Arnold 2 68 19OCT1985
-1302 Felicia     Ho     1 63 18SEP2001
-;
-
-PROC PRINT DATA = temp; 
+		+3 height 2.
+        +5 wt_date mmddyy8.
+        +1 calorie comma5.;
+ 	DATALINES;
+1024 Alice       Smith  1 65 125 12/1/95  2,036
+1167 Maryann     White  1 68 140 12/01/95 1,800
+1168 Thomas      Jones  2    190 12/2/95  2,302
+1201 Benedictine Arnold 2 68 190 11/30/95 2,432
+1302 Felicia     Ho     1 63 115 1/1/96   1,972
+  	;
+RUN;
+PROC PRINT data = temp;
+  	title 'Output dataset: TEMP';
 RUN;
 
+/*==============================================================================*/
+/*==============================================================================*/
 
-/* =====================================  INFILE OPTIONS ============================================= */
-
-/* =================================================================================================== */
-/* =================================================================================================== */
-
-/* INFILE - LINE */
-/* STEP 1 - Writing sample lines to a raw data file */ 
+/*
+INFILE Options - LINE
+*/
+/* Step 1: Write sample lines to a raw data file */
 FILENAME myfile '/home/tripathisachin130/Data/line_demo.txt';
-DATA _NULL_; 
-	FILE myfile; 
-	PUT 'John,25,Engineer';
-	PUT 'Sarah,29,Analyst';
-	PUT 'Michael,30,Manager';
+DATA _NULL_;
+  	FILE myfile;
+  	PUT 'John,25,Engineer';
+  	PUT 'Sara,30,Analyst';
+  	PUT 'Mike,28,Manager';
 RUN;
-
-/* STEP 2 - Reading with LINE to see the line number which are being read */
+/* Step 2: Read with LINE= to see line numbers being read */
 DATA example_line;
-	INFILE myfile LINE=lineptr DELIMITER=',';
-	INPUT name :$10. age :3. role :$10.; 
+  	INFILE myfile LINE=lineptr DELIMITER=','; 
+  	INPUT name :$10. age :3. role :$10.;
   	PUT "Reading line " lineptr ": " name age role;
 RUN;
 
-/* INFILE OPTIONS - LINE (Checking the usage of lineptr - Print odd rows) */
-FILENAME myfile temp; 
-DATA _NULL_;
-	FILE myfile; 
-	PUT 'John,25,Engineer';
-	PUT 'Sarah,29,Analyst';
-	PUT 'Michael,30,Manager';
-	PUT 'Ravi,30,HR';
-	PUT 'Jagriti,28,Consultant';
-	PUT 'Yashaswini,31,Director';
+/*==============================================================================*/
+/*==============================================================================*/
 
-DATA odd_lines_only; 
-	INFILE myfile DELIMITER=',';
-	INPUT name :$10. age :3. role :$10.; 
-	lineptr + 1; 
-	IF mod(lineptr, 2) = 1; /* Any conditional/logical operation can be used */ 
-		PUT "Keeping line" lineptr ":" name age role;
-RUN; 
-	
-/* INFILE - MISSOVER */
-FILENAME myfile temp; 
-DATA _NULL_;
-	FILE myfile; 
-	PUT 'John,25,Engineer';
-	PUT 'Sarah,29';
-	PUT 'Michael,30,Manager';
-	PUT 'Ravi,HR';
-	PUT 'Nina,Consultant';
-	PUT ',31,Director';
-
-/* MISSOVER OPTION */
-/* It prevents SAS from going to the next line if it doesnt
-finds all the expected values in the current line. 
-Missing values are assigned as missing (.) */
-DATA missover_example; 
-	INFILE myfile dsd dlm = "," MISSOVER; 
-	INPUT name :$10. age :3. role :$10.; 
-	PUT "Name: " name "Age: " age "Role: " role; 
-RUN; 
-
-/* INFILE - TRUNCOVER */
-FILENAME myfile temp; 
-DATA _NULL_;
-	FILE myfile; 
-	PUT 'John,25,Engineer';
-	PUT 'Sarah,29';
-	PUT 'Michael,30,Manager';
-	PUT 'Ravi,HR';
-	PUT 'Nina,Consultant';
-
-/* TRUNCOVER OPTION */
-/* It allows SAS to read a shorter-than-expected input line
-without issuing an error. It pads the remaining variables with 
-missing values. It is similar to MISSOVER but doesnt prevents reading
-the next line*/
-DATA turncover_example; 
-	INFILE myfile dsd dlm = "," TRUNCOVER; 
-	INPUT name $ age role $; 
-	PUT "Name: " name "Age: " age "Role: " role; 
-RUN; 
-
-/* INFILE - DSD */
-/* It is able to handle consecutive delimiters as missing values are removes 
-quoting */
-FILENAME myfile temp; 
-DATA _NULL_;
+/*
+INFILE Options - LINE (Checking the usage of lineptr - Printing odd rows)
+*/
+filename myfile temp; /* Using a temporary file for demonstration */
+data _null_;
   	file myfile;
- 	put 'John,25,"Engineer, Software"';
+  	put 'John,25,Engineer';
   	put 'Sara,30,Analyst';
-  	put 'Mike,,Manager';
-  	put ',32,Consultant';
-  	put 'Gary,"29,Director",Executive';
+  	put 'Mike,28,Manager';
+  	put 'Nina,32,Consultant';
+  	put 'Gary,29,Director';
+run;
+
+/* Step 2: Read the file and keep only odd-numbered lines */
+data odd_lines_only;
+  	infile myfile delimiter=',' ;
+  	input name :$10. age :3. role :$15.;
+  	lineptr + 1; /* Increment lineptr for each record read */
+  	if mod(lineptr, 2) = 1;
+  	put "Keeping line " lineptr ": " name age role;
+run;
+
+/*==============================================================================*/
+/*==============================================================================*/
+
+/* 
+INFILE Options - MISSOVER 
+*/
+filename mydata temp;
+data _null_;
+  	file mydata;
+  	put 'John,25,Engineer';
+  	put 'Sara,30';
+  	put 'Mike,,Manager,Project Lead';
+  	put 'Nina,Consultant';
+run;
+
+/* Using MISSOVER */
+/* -------------------- MISSOVER Option -------------------- */
+/* Prevents SAS from going to the next input line if it doesn't */
+/* find all the expected values in the current line. Missing */
+/* values are assigned as missing. */
+data missover_example;
+  	infile mydata dsd dlm=',' missover;
+  	input name $ age role $ title $;
+  	put "Name: " name " Age: " age " Role: " role " Title: " title;
+run;
+
+/*==============================================================================*/
+/*==============================================================================*/
+
+/* 
+INFILE Options - TURNCOVER 
+*/ 
+/* Sample data file for demonstration */
+filename mydata temp;
+data _null_;
+  file mydata;
+  put 'John,25,Engineer';
+  put 'Sara,30';
+  put 'Mike,,Manager,Project Lead';
+  put 'Nina,Consultant';
+run;
+
+/* Using TRUNCOVER */
+/* -------------------- TRUNCOVER Option -------------------- */
+/* Allows SAS to read a shorter-than-expected input line without */
+/* issuing an error. It pads the remaining variables with missing */
+/* values. Similar to MISSOVER but doesn't prevent reading the next line. */
+data truncover_example;
+  infile mydata dsd dlm=',' truncover;
+  input name $ age role $ title $;
+  put "Name: " name " Age: " age " Role: " role " Title: " title;
+run;
+
+/*==============================================================================*/
+/*==============================================================================*/
+
+/* INFILE Options - DSD
+/* Sample data file for demonstration */
+filename mydata temp;
+data _null_;
+  file mydata;
+  put 'John,25,"Engineer, Software"';
+  put 'Sara,30,Analyst';
+  put 'Mike,,Manager';
+  put ',32,Consultant';
+  put 'Gary,"29, Director",Executive';
+run;
+
+/* Using DSD option */
+/* -------------------- DSD Option (Delimiter-Sensitive Data) -------------------- */
+/* Handles consecutive delimiters as missing values and removes quoting */
+/* characters around values. It's often used with DLM=. */
+data dsd_example;
+  infile mydata dsd dlm=',';
+  input name $ age role $;
+  put "Name: " name " Age: " age " Role: " role;
+run;
+
+/*==============================================================================*/
+/*==============================================================================*/
+
+/* INFILE Options - PAD */
+filename myfile temp lrecl=30;
+data _null_;
+  file myfile;
+  put 'John    25Engineer       ';
+  put 'Sara    30Analyst        ';
+  put 'Mike    28Manager        ';
+  put 'Nina    32Consultant     ';
+run;
+
+/* Using PAD option */
+data pad_example;
+  infile myfile pad lrecl=30; /* LRECL should match the file's structure */
+  input name $8. age 3. role $15.;
+  put "Name: '" name "'" " Age: " age " Role: '" role "'";
+run;
+/* The PAD option in the INFILE statement is used when reading fixed-width data */
+/* files where each record is expected to have a specific length */
+/* (defined by the LRECL= option). If a line in the input file is shorter than the LRECL=, */
+/* the PAD option tells SAS to pad the line with trailing blanks up to the specified */
+/* LRECL before the INPUT statement attempts to read from it. */
+
+/*==============================================================================*/
+/*==============================================================================*/
+
+/* Pointer Controls - Column Pointer (@) */
+filename mydata temp;
+data _null_;
+  file mydata;
+  put '1-John---25---Engineer';
+  put '2-Sara---30---Analyst ';
+run;
+
+data read_columns;
+  infile mydata;
+  input @3 name $4. @10 age 2.;
+  put "Name: " name " Age: " age;
+run;
+
+/* Pointer Controls - Line Pointer (@@) */
+filename multiple temp;
+data _null_;
+  file multiple;
+  put 'John 25 Sara 30 Mike 28';
+run;
+
+data multiple_read;
+  infile multiple;
+  input name1 $ age1 @@;
+  input name2 $ age2 @@;
+  input name3 $ age3;
+  put "Name1: " name1 " Age1: " age1;
+  put "Name2: " name2 " Age2: " age2;
+  put "Name3: " name3 " Age3: " age3;
+run;
+
+/*==============================================================================*/
+/*==============================================================================*/
+
+/* SAS MERGE */ 
+
+DATA one;
+ 	INPUT id v1 v2;
+ 	DATALINES;
+ 	1 10 100
+ 	2 15 150
+ 	3 20 200
+ ;
+PROC SORT Data=one;
+ BY id;
+RUN;
+
+DATA two;
+ 	INPUT id v3 v4;
+ 	DATALINES;
+ 	1 1000 10000
+ 	2 1500 15000
+ 	3 2000 20000
+ 	4  800 30000
+ ;
+PROC SORT Data=two;
+ BY id;
+RUN;
+
+DATA three;
+ 	MERGE one two;
+ 	BY id;
+PROC PRINT DATA=three; 
+RUN;
+
+/* SAS MERGE - Another Example */
+DATA Employee_Info;
+    INPUT ID NAME $ SALARY;
+    DATALINES;
+	1 Alice 700.0
+	2 Bob 645.5
+	6 Fiona 600.3
+	3 CEharlie 820.2
+	8 Hannah 734.1
+	4 Diana 910.6
+	7 George 689.9
+	5 Ethan 775.4
+	;
+RUN;
+PROC SORT data = Employee_Info;
+	By ID; 
 RUN; 
 
-DATA dsd_example; 
-	INFILE myfile dsd dlm = ","; 
-	INPUT name $ age role $; 
-	PUT "Name: " name "Age: " age "Role: " role;  
+data Emp_Department;
+    INPUT ID DEPT $;
+    DATALINES;
+	1 HR
+	7 HR
+	2 IT
+	8 MARKETING
+	3 SALES
+	6 IT
+	4 FIN
+	5 OPS
+	;
+run;
+PROC SORT data = Emp_Department;
+	By ID; 
+RUN;
+
+
+DATA Employee_Data;
+    MERGE Employee_Info Emp_Department;
+    BY ID;
+RUN;
+
+/* SAS MERGE - Merging only matching observations*/ 
+DATA Employee_Info;
+    INPUT ID NAME $ SALARY;
+    DATALINES;
+	1 Alice 700.0
+	2 . 645.5
+	3 Charlie .
+	5 Ethan 775.4
+	6 Fiona .
+	7 George 689.9
+	8 Hannah 734.1
+	;
+RUN;
+PROC SORT DATA = Employee_Info;
+	BY ID; 
 RUN; 
 
+DATA Emp_Department;
+    INPUT ID DEPT $;
+    DATALINES;
+1 HR
+2 IT
+3 .
+4 FIN
+6 IT
+7 HR
+8 .
+;
+RUN;
+PROC SORT DATA = Emp_Department;
+	BY ID; 
+RUN;
 
+DATA All_details;
+MERGE Employee_Info(IN = a) Emp_Department(IN = b);
+BY ID;
+IF a = 1 and b = 1;
+RUN;
+PROC PRINT DATA = All_details; 
+RUN;  
 
+/*==============================================================================*/
+/*==============================================================================*/
 
+/* SAS Dataset Concatenation */
+DATA EmpInfo1;
+    INPUT ID NAME $ SALARY;
+    DATALINES;
+	1 Alice 700.0
+	2 Bob 645.5
+	3 CEharlie 820.2
+	7 George 689.9
+	;
 
+DATA EmpInfo2;
+    INPUT ID NAME $ SALARY;
+    DATALINES;
+	6 Fiona 600.3
+	8 Hannah 734.1
+	4 Diana 910.6
+	5 Ethan 775.4
+	;
 
+DATA AllEmps; 
+   SET EmpInfo1 EmpInfo2; 
 
+PROC SORT DATA = AllEmps;
+	By ID; 
 
+PROC PRINT DATA = AllEmps; 
+RUN;  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*==============================================================================*/
+/*==============================================================================*/
