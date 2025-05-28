@@ -1,0 +1,340 @@
+Policy_ID,Age,Gender,BMI,Smoking_Status,Pre_Existing_Conditions,Annual_Income,Region,Claim_History,Policy_Type,Premium_Amount,Policy_Term_Years,Has_Made_Claim
+PID1000,56,Male,22.7,Non-Smoker,Asthma,142720,West,8,Corporate,12321.87,1,Yes
+PID1001,69,Male,26.9,Smoker,Diabetes,69153,North,6,Family,8464.33,2,Yes
+PID1002,46,Other,28.0,Smoker,Asthma,26368,South,9,Senior,6417.11,5,Yes
+PID1003,32,Female,23.0,Smoker,None,47424,West,8,Senior,13337.76,1,Yes
+PID1004,60,Male,19.8,Non-Smoker,Hypertension,132360,North,6,Senior,9083.02,5,Yes
+PID1005,25,Other,28.3,Smoker,Diabetes,65004,North,0,Family,11859.53,2,No
+PID1006,78,Male,36.1,Non-Smoker,Hypertension,103869,East,7,Individual,11803.4,5,Yes
+PID1007,38,Male,29.0,Smoker,Asthma,108652,East,3,Corporate,2233.29,5,Yes
+PID1008,56,Female,27.5,Smoker,Diabetes,132755,West,2,Individual,3641.3,5,Yes
+PID1009,75,Other,27.4,Smoker,Heart Disease,76985,South,6,Individual,10575.18,5,Yes
+PID1010,36,Other,25.7,Non-Smoker,Hypertension,70069,North,2,Corporate,4101.06,2,Yes
+PID1011,40,Female,32.9,Smoker,Diabetes,72326,West,7,Corporate,5321.41,1,Yes
+PID1012,28,Female,24.5,Non-Smoker,Hypertension,128737,North,5,Family,14306.29,3,Yes
+PID1013,28,Other,20.2,Non-Smoker,Diabetes,101061,North,4,Family,9282.37,5,Yes
+PID1014,41,Other,19.1,Non-Smoker,None,43398,South,3,Family,11759.48,1,No
+PID1015,70,Female,27.4,Smoker,Hypertension,118393,South,7,Family,9253.75,1,Yes
+PID1016,53,Male,32.3,Smoker,Heart Disease,70861,West,7,Family,9182.68,2,Yes
+PID1017,57,Male,28.2,Smoker,Heart Disease,95897,South,0,Corporate,3223.97,1,Yes
+PID1018,41,Female,25.4,Smoker,Asthma,101905,South,8,Individual,6467.62,2,Yes
+PID1019,20,Male,29.3,Non-Smoker,Diabetes,147118,West,4,Family,5671.6,5,No
+PID1020,39,Female,27.9,Non-Smoker,Hypertension,88577,South,3,Family,7079.47,5,No
+PID1021,70,Male,31.1,Non-Smoker,Asthma,85641,East,5,Individual,12378.47,3,No
+PID1022,19,Male,33.6,Smoker,Hypertension,29078,North,5,Family,6835.12,3,No
+PID1023,41,Other,22.2,Non-Smoker,Diabetes,45003,North,1,Individual,7872.06,3,No
+PID1024,61,Other,15.3,Smoker,Heart Disease,82768,North,7,Individual,7165.96,1,No
+PID1025,47,Male,25.2,Non-Smoker,None,71047,North,6,Corporate,3214.3,5,No
+PID1026,55,Male,21.9,Smoker,Heart Disease,91626,West,0,Senior,7733.94,2,No
+PID1027,19,Other,31.2,Smoker,Asthma,77660,North,4,Corporate,4542.92,3,No
+PID1028,77,Other,23.4,Non-Smoker,None,124386,North,5,Senior,4427.4,2,No
+PID1029,38,Other,17.6,Non-Smoker,Asthma,69786,North,3,Senior,3222.47,2,No
+PID1030,50,Female,24.1,Non-Smoker,Diabetes,21925,North,1,Senior,6636.72,3,No
+PID1031,29,Male,19.5,Non-Smoker,None,103976,East,3,Family,11847.26,5,No
+PID1032,75,Other,35.0,Smoker,Asthma,125221,North,0,Corporate,5593.74,3,No
+PID1033,39,Male,29.4,Non-Smoker,Diabetes,137832,East,6,Senior,6060.54,2,No
+PID1034,78,Female,30.2,Non-Smoker,Heart Disease,145150,West,1,Individual,10354.77,3,No
+PID1035,61,Female,29.7,Non-Smoker,Diabetes,46015,South,1,Family,4545.93,2,Yes
+PID1036,42,Other,31.2,Smoker,Hypertension,53320,North,8,Corporate,13660.45,2,No
+PID1037,66,Female,32.7,Smoker,Diabetes,84881,South,4,Senior,8762.48,3,Yes
+PID1038,44,Male,24.3,Non-Smoker,Diabetes,110827,South,1,Individual,7818.84,1,No
+PID1039,76,Other,19.9,Smoker,Hypertension,140071,West,8,Corporate,9251.66,3,No
+PID1040,59,Male,22.8,Non-Smoker,Asthma,122215,South,8,Corporate,4158.45,1,Yes
+PID1041,45,Male,26.8,Smoker,Asthma,46289,East,0,Family,9975.15,2,No
+PID1042,77,Female,14.2,Smoker,Diabetes,148859,South,2,Corporate,6720.31,2,Yes
+PID1043,33,Female,32.7,Smoker,Hypertension,23389,South,3,Family,13663.42,1,Yes
+PID1044,32,Female,17.5,Smoker,Hypertension,45683,South,6,Senior,4195.1,2,Yes
+PID1045,79,Female,30.0,Non-Smoker,Heart Disease,33629,North,9,Family,8591.66,1,No
+PID1046,79,Female,26.2,Non-Smoker,Asthma,81550,North,3,Individual,9775.46,1,No
+PID1047,64,Other,28.4,Non-Smoker,None,44826,East,1,Family,2433.99,2,No
+PID1048,79,Male,24.6,Smoker,Asthma,120734,East,6,Individual,6728.01,5,Yes
+PID1049,68,Male,28.1,Non-Smoker,Asthma,46630,North,5,Family,11524.26,1,Yes
+PID1050,61,Male,24.6,Non-Smoker,Heart Disease,118762,East,2,Corporate,12664.91,3,No
+PID1051,72,Male,24.2,Non-Smoker,None,66163,North,5,Senior,6071.11,3,No
+PID1052,69,Female,22.5,Smoker,Heart Disease,118511,West,5,Individual,12381.71,2,No
+PID1053,74,Male,34.6,Smoker,None,86435,South,4,Family,14580.83,5,No
+PID1054,20,Other,28.8,Smoker,Diabetes,31653,South,3,Family,13139.36,2,No
+PID1055,54,Other,28.0,Non-Smoker,None,47961,East,9,Family,3529.37,5,Yes
+PID1056,68,Male,22.6,Non-Smoker,Heart Disease,101941,North,0,Corporate,11616.49,1,Yes
+PID1057,24,Male,25.8,Non-Smoker,Asthma,94137,North,9,Corporate,6155.67,1,Yes
+PID1058,38,Other,22.1,Smoker,None,53662,East,5,Individual,14849.41,1,No
+PID1059,26,Other,24.5,Smoker,None,118818,North,1,Individual,8309.67,1,Yes
+PID1060,56,Female,21.0,Non-Smoker,Hypertension,76446,West,2,Corporate,3591.64,3,Yes
+PID1061,35,Other,34.9,Smoker,Asthma,41288,South,7,Individual,11427.41,3,Yes
+PID1062,21,Female,23.2,Smoker,Diabetes,142555,East,9,Senior,6199.15,2,Yes
+PID1063,42,Female,22.6,Smoker,Heart Disease,115081,East,5,Senior,14962.02,5,Yes
+PID1064,77,Female,20.4,Smoker,Diabetes,56877,North,2,Corporate,14737.17,1,No
+PID1065,31,Female,23.1,Non-Smoker,Asthma,131562,East,6,Individual,10529.74,1,Yes
+PID1066,67,Female,24.5,Smoker,None,35313,West,3,Family,3687.74,5,No
+PID1067,75,Male,26.8,Smoker,None,100885,North,8,Senior,10929.19,5,No
+PID1068,26,Other,23.8,Smoker,Asthma,92715,North,4,Corporate,3209.4,2,No
+PID1069,43,Female,19.0,Smoker,None,30326,North,2,Individual,2381.73,5,No
+PID1070,70,Other,19.4,Non-Smoker,None,130091,North,1,Corporate,12698.46,1,No
+PID1071,19,Other,30.4,Non-Smoker,None,145836,West,1,Family,4726.79,1,Yes
+PID1072,37,Female,26.4,Smoker,Heart Disease,21560,North,2,Senior,6927.35,1,Yes
+PID1073,45,Male,30.2,Smoker,Heart Disease,99148,East,1,Corporate,14654.95,1,No
+PID1074,64,Female,30.9,Smoker,Hypertension,103186,West,3,Corporate,6378.93,1,No
+PID1075,77,Male,27.8,Smoker,Diabetes,46745,South,1,Corporate,5854.37,2,No
+PID1076,24,Other,20.8,Smoker,Asthma,51890,South,9,Family,13936.7,1,Yes
+PID1077,61,Male,27.9,Smoker,Asthma,40022,East,8,Corporate,3439.73,2,No
+PID1078,78,Male,34.0,Non-Smoker,Asthma,143629,East,1,Family,11874.57,1,Yes
+PID1079,25,Male,24.8,Smoker,Hypertension,72579,West,8,Family,14844.85,3,No
+PID1080,64,Other,28.7,Non-Smoker,Heart Disease,90316,South,5,Family,13716.85,3,Yes
+PID1081,52,Other,26.9,Non-Smoker,Hypertension,103847,South,0,Senior,10471.68,3,No
+PID1082,31,Male,33.9,Smoker,Asthma,48380,South,3,Senior,6082.79,3,Yes
+PID1083,34,Male,23.6,Non-Smoker,Diabetes,130198,South,0,Corporate,5306.19,2,No
+PID1084,53,Female,32.8,Non-Smoker,None,22356,South,5,Corporate,12650.32,2,Yes
+PID1085,67,Male,25.1,Non-Smoker,Heart Disease,90326,North,3,Senior,13437.68,5,Yes
+PID1086,57,Female,23.5,Non-Smoker,Heart Disease,112447,East,2,Individual,8830.65,1,Yes
+PID1087,21,Male,27.5,Non-Smoker,Hypertension,134994,North,2,Senior,5176.42,3,Yes
+PID1088,19,Female,28.7,Non-Smoker,Heart Disease,109899,South,8,Family,3468.26,2,Yes
+PID1089,79,Other,36.6,Smoker,Asthma,40049,West,5,Senior,3133.33,1,Yes
+PID1090,23,Male,28.6,Non-Smoker,Asthma,95717,West,8,Family,11348.01,1,Yes
+PID1091,71,Male,28.0,Non-Smoker,Hypertension,125361,South,4,Corporate,7461.54,2,No
+PID1092,59,Male,35.0,Non-Smoker,Asthma,36082,South,1,Individual,13769.68,3,No
+PID1093,21,Male,30.0,Smoker,Diabetes,20661,West,7,Corporate,11615.73,5,No
+PID1094,71,Female,23.8,Non-Smoker,Hypertension,57412,North,4,Family,4486.39,1,No
+PID1095,46,Male,33.8,Smoker,Diabetes,134015,North,1,Family,9979.11,5,No
+PID1096,35,Other,23.3,Non-Smoker,None,143191,South,3,Family,7661.57,3,Yes
+PID1097,43,Other,23.8,Smoker,Diabetes,22920,North,8,Individual,9504.25,3,Yes
+PID1098,61,Male,22.8,Smoker,None,111194,West,3,Senior,11594.9,5,Yes
+PID1099,51,Other,22.3,Non-Smoker,None,134306,North,3,Corporate,12480.55,3,Yes
+PID1100,27,Male,28.7,Non-Smoker,Diabetes,80315,South,1,Corporate,12968.59,1,Yes
+PID1101,79,Male,25.7,Smoker,Hypertension,99561,West,5,Senior,5301.67,5,No
+PID1102,53,Other,9.6,Non-Smoker,Asthma,28946,North,1,Corporate,2404.5,3,No
+PID1103,31,Male,25.7,Smoker,Asthma,114242,East,6,Individual,11610.83,5,No
+PID1104,48,Other,24.4,Smoker,None,65500,West,2,Corporate,3382.47,1,No
+PID1105,65,Female,31.5,Smoker,None,124540,West,2,Family,6093.95,3,Yes
+PID1106,32,Male,24.2,Smoker,Hypertension,36309,East,4,Senior,2049.62,1,Yes
+PID1107,25,Female,39.7,Smoker,Heart Disease,75230,East,2,Individual,10861.7,3,Yes
+PID1108,31,Other,34.0,Non-Smoker,Diabetes,131822,West,1,Senior,4172.72,2,No
+PID1109,40,Female,25.1,Smoker,None,118656,East,9,Individual,10518.67,3,Yes
+PID1110,77,Female,32.7,Smoker,Asthma,143782,South,8,Family,14892.65,5,No
+PID1111,74,Other,29.6,Non-Smoker,Hypertension,50027,South,1,Senior,2944.72,3,Yes
+PID1112,79,Female,28.2,Smoker,Diabetes,146768,South,1,Corporate,3002.01,1,Yes
+PID1113,57,Female,31.0,Non-Smoker,Hypertension,92541,West,7,Individual,6424.94,1,No
+PID1114,38,Other,27.3,Non-Smoker,Diabetes,132340,East,8,Senior,13263.02,3,Yes
+PID1115,33,Female,28.2,Non-Smoker,Diabetes,134846,East,6,Corporate,4801.89,5,Yes
+PID1116,62,Other,31.1,Smoker,None,79321,North,2,Senior,6684.91,2,No
+PID1117,35,Female,37.3,Smoker,Hypertension,20956,North,8,Senior,2890.57,5,Yes
+PID1118,64,Other,28.3,Smoker,Hypertension,120375,East,2,Senior,11921.02,2,No
+PID1119,70,Other,24.7,Non-Smoker,Asthma,94131,East,4,Individual,7307.98,1,Yes
+PID1120,41,Female,16.9,Smoker,Asthma,67908,East,8,Corporate,11870.23,5,Yes
+PID1121,43,Female,36.8,Non-Smoker,None,98339,West,2,Family,13746.9,2,Yes
+PID1122,42,Female,25.7,Smoker,None,145659,East,6,Individual,5025.92,3,Yes
+PID1123,77,Male,29.7,Non-Smoker,Heart Disease,45963,North,0,Individual,12496.15,1,Yes
+PID1124,77,Male,36.5,Smoker,Asthma,121757,West,3,Individual,2768.22,3,Yes
+PID1125,77,Male,28.1,Smoker,Diabetes,59443,East,3,Family,13685.02,1,Yes
+PID1126,62,Other,26.0,Smoker,Hypertension,119259,North,6,Corporate,10459.99,5,Yes
+PID1127,58,Female,34.1,Non-Smoker,None,59063,West,7,Corporate,13364.95,5,No
+PID1128,46,Other,29.3,Non-Smoker,Hypertension,134225,East,0,Corporate,2002.45,1,No
+PID1129,32,Male,29.9,Smoker,Hypertension,136400,East,4,Senior,4198.05,1,Yes
+PID1130,62,Female,19.4,Smoker,Heart Disease,100818,East,6,Senior,7066.87,1,Yes
+PID1131,18,Other,33.0,Non-Smoker,Asthma,24703,West,3,Senior,6933.54,5,No
+PID1132,42,Female,28.9,Non-Smoker,None,85128,North,3,Family,4947.49,2,Yes
+PID1133,24,Other,20.1,Non-Smoker,Hypertension,92099,North,3,Senior,6960.96,3,Yes
+PID1134,26,Female,29.4,Smoker,None,45849,South,5,Family,3675.03,3,No
+PID1135,41,Male,16.7,Non-Smoker,Diabetes,51860,East,6,Corporate,7365.89,5,Yes
+PID1136,18,Male,38.7,Smoker,Heart Disease,51585,South,1,Senior,12430.61,3,Yes
+PID1137,61,Female,21.5,Non-Smoker,Diabetes,42015,South,4,Senior,8227.91,1,No
+PID1138,25,Other,35.1,Smoker,None,97539,North,3,Individual,2234.0,2,Yes
+PID1139,41,Male,22.9,Non-Smoker,None,63585,West,2,Family,7478.77,3,Yes
+PID1140,28,Male,29.8,Non-Smoker,Asthma,46958,West,6,Corporate,2353.28,2,No
+PID1141,68,Male,22.4,Non-Smoker,Hypertension,46017,North,5,Individual,14561.16,1,Yes
+PID1142,34,Female,32.0,Non-Smoker,Hypertension,96707,West,6,Individual,3656.9,3,No
+PID1143,25,Female,25.8,Non-Smoker,Diabetes,144677,South,4,Corporate,11199.95,5,Yes
+PID1144,52,Other,29.3,Smoker,Heart Disease,65350,East,5,Individual,14646.09,2,Yes
+PID1145,52,Other,27.1,Non-Smoker,Hypertension,32201,North,4,Family,12738.51,1,No
+PID1146,50,Other,20.2,Non-Smoker,Asthma,49426,East,6,Family,11091.1,2,No
+PID1147,76,Female,29.5,Non-Smoker,Diabetes,37778,West,1,Senior,12912.99,3,Yes
+PID1148,22,Female,24.5,Smoker,Diabetes,65241,East,4,Individual,14763.38,3,No
+PID1149,59,Other,32.2,Non-Smoker,Asthma,62229,West,5,Senior,10077.48,5,No
+PID1150,56,Other,25.8,Smoker,Heart Disease,106652,West,5,Individual,9269.4,1,Yes
+PID1151,75,Female,26.6,Non-Smoker,Asthma,148267,South,4,Family,10167.1,1,Yes
+PID1152,58,Other,35.4,Non-Smoker,Heart Disease,138402,West,9,Family,8924.79,5,Yes
+PID1153,45,Male,38.9,Smoker,Asthma,68364,South,6,Family,10256.16,5,No
+PID1154,24,Female,30.9,Non-Smoker,Asthma,118833,South,9,Individual,7847.95,1,No
+PID1155,26,Other,25.6,Smoker,None,146503,South,7,Family,4839.76,2,No
+PID1156,25,Female,25.1,Smoker,Diabetes,149044,North,6,Individual,3563.21,2,No
+PID1157,29,Male,22.9,Non-Smoker,Asthma,104878,North,4,Senior,2888.43,5,Yes
+PID1158,51,Female,23.9,Smoker,Asthma,77056,West,0,Individual,5423.11,2,No
+PID1159,50,Female,25.6,Non-Smoker,Hypertension,47490,South,4,Senior,2599.61,1,Yes
+PID1160,65,Female,36.8,Non-Smoker,Diabetes,147769,North,9,Individual,9373.22,3,No
+PID1161,72,Female,26.0,Smoker,Hypertension,39975,South,1,Senior,5689.77,3,Yes
+PID1162,40,Male,20.9,Smoker,Diabetes,46723,East,4,Family,12718.95,2,Yes
+PID1163,79,Female,27.2,Smoker,Hypertension,43279,East,4,Senior,2965.13,5,Yes
+PID1164,41,Female,27.9,Smoker,Asthma,98301,East,1,Family,4942.57,5,No
+PID1165,54,Other,27.2,Non-Smoker,Asthma,132214,West,4,Family,11493.2,5,Yes
+PID1166,52,Female,31.0,Non-Smoker,None,31561,South,3,Senior,9784.51,5,Yes
+PID1167,61,Other,27.3,Smoker,Hypertension,127435,East,0,Individual,2838.39,5,No
+PID1168,57,Male,30.8,Non-Smoker,Heart Disease,86061,North,2,Individual,13404.11,2,Yes
+PID1169,39,Male,23.1,Non-Smoker,None,108397,East,0,Corporate,13404.4,3,No
+PID1170,44,Male,35.9,Non-Smoker,Hypertension,69153,East,4,Individual,6295.3,3,No
+PID1171,52,Male,28.3,Non-Smoker,Hypertension,53142,East,3,Corporate,6425.28,2,Yes
+PID1172,18,Other,29.0,Smoker,None,46916,West,6,Individual,14857.37,5,Yes
+PID1173,52,Female,23.1,Smoker,Asthma,84324,North,4,Individual,10140.29,2,No
+PID1174,54,Male,29.4,Non-Smoker,Hypertension,64965,South,9,Family,8907.11,3,Yes
+PID1175,64,Female,30.3,Smoker,Asthma,145932,North,3,Corporate,12895.98,1,No
+PID1176,31,Other,21.2,Smoker,None,24648,South,1,Individual,5708.77,2,No
+PID1177,20,Other,18.7,Smoker,Asthma,55133,West,3,Corporate,7579.37,5,No
+PID1178,18,Other,28.5,Non-Smoker,Diabetes,70677,West,1,Family,5481.1,3,Yes
+PID1179,22,Male,24.6,Non-Smoker,Heart Disease,116059,West,7,Family,12259.09,3,No
+PID1180,43,Female,28.3,Non-Smoker,Hypertension,114588,West,2,Corporate,9453.54,3,Yes
+PID1181,72,Female,20.5,Smoker,Heart Disease,119950,South,8,Family,10564.73,3,Yes
+PID1182,31,Female,19.2,Non-Smoker,Asthma,118317,East,3,Senior,5279.99,5,Yes
+PID1183,56,Other,28.0,Non-Smoker,Hypertension,90135,South,5,Senior,4862.93,1,Yes
+PID1184,44,Male,25.3,Smoker,Asthma,55046,North,9,Family,8348.87,3,No
+PID1185,26,Other,16.4,Non-Smoker,Diabetes,67064,West,4,Senior,11588.35,2,Yes
+PID1186,32,Other,33.7,Non-Smoker,None,121459,West,9,Individual,8828.12,1,No
+PID1187,32,Female,20.5,Smoker,Hypertension,126625,North,0,Corporate,2424.39,3,No
+PID1188,43,Other,39.9,Smoker,Diabetes,89350,South,8,Individual,13291.17,1,Yes
+PID1189,59,Female,23.9,Smoker,Diabetes,65893,East,0,Corporate,2840.93,2,No
+PID1190,77,Male,29.0,Non-Smoker,Hypertension,121520,East,7,Family,14425.72,3,No
+PID1191,30,Female,35.2,Non-Smoker,Asthma,145818,North,8,Individual,2326.85,2,Yes
+PID1192,68,Male,34.4,Non-Smoker,Diabetes,81272,East,8,Family,11027.86,5,No
+PID1193,49,Female,36.9,Smoker,Heart Disease,112152,South,0,Family,3068.69,3,No
+PID1194,56,Other,19.4,Smoker,Diabetes,142907,South,1,Corporate,13838.8,3,No
+PID1195,66,Other,21.3,Non-Smoker,Asthma,87649,North,0,Corporate,8037.63,3,No
+PID1196,69,Male,28.1,Non-Smoker,Asthma,84674,South,9,Corporate,3787.81,3,Yes
+PID1197,78,Male,31.2,Smoker,Heart Disease,144132,West,1,Individual,6430.6,5,No
+PID1198,49,Male,26.9,Smoker,Diabetes,139044,North,9,Senior,4142.72,3,No
+PID1199,21,Female,18.8,Smoker,Asthma,128542,South,7,Corporate,4217.56,1,No
+PID1200,47,Female,29.5,Smoker,Hypertension,33760,North,4,Corporate,14325.41,3,No
+PID1201,54,Male,26.0,Non-Smoker,None,41927,East,6,Individual,7788.2,5,Yes
+PID1202,40,Other,26.0,Smoker,None,106475,South,1,Corporate,12254.43,3,No
+PID1203,56,Female,15.6,Non-Smoker,None,81367,West,7,Individual,10314.87,1,Yes
+PID1204,62,Female,31.0,Non-Smoker,Diabetes,117955,South,5,Family,10793.54,5,No
+PID1205,32,Female,27.7,Non-Smoker,Heart Disease,32588,North,7,Corporate,3712.01,5,Yes
+PID1206,60,Male,36.0,Smoker,Asthma,141750,North,0,Corporate,5044.4,1,Yes
+PID1207,46,Male,26.6,Smoker,Hypertension,121678,South,0,Family,12227.75,1,Yes
+PID1208,53,Male,29.8,Smoker,Hypertension,124734,West,6,Family,14619.96,1,Yes
+PID1209,30,Male,31.2,Smoker,Diabetes,138154,West,7,Family,5414.78,1,Yes
+PID1210,49,Male,18.3,Non-Smoker,None,72233,West,2,Corporate,5530.39,1,No
+PID1211,24,Other,40.1,Smoker,Diabetes,64738,North,4,Senior,8147.66,5,No
+PID1212,76,Other,24.8,Smoker,Heart Disease,53397,South,0,Senior,14789.92,5,No
+PID1213,68,Male,29.5,Non-Smoker,Heart Disease,102189,East,6,Senior,5496.47,3,Yes
+PID1214,39,Female,30.2,Smoker,Asthma,96367,North,4,Corporate,7290.63,3,No
+PID1215,45,Male,22.9,Non-Smoker,Asthma,144873,West,7,Family,13589.24,2,Yes
+PID1216,19,Other,36.2,Non-Smoker,Heart Disease,91260,South,7,Corporate,2037.97,3,Yes
+PID1217,59,Other,28.3,Non-Smoker,Heart Disease,140585,West,8,Family,2516.96,3,No
+PID1218,62,Female,25.9,Non-Smoker,Heart Disease,96619,East,6,Corporate,9852.93,1,No
+PID1219,79,Other,27.7,Non-Smoker,Diabetes,131453,West,0,Corporate,13795.94,1,Yes
+PID1220,74,Male,30.8,Non-Smoker,Heart Disease,39816,West,2,Family,5105.14,3,Yes
+PID1221,70,Female,27.1,Non-Smoker,Hypertension,62240,East,7,Senior,8105.34,2,No
+PID1222,23,Male,31.4,Non-Smoker,None,26276,South,2,Family,7856.05,1,No
+PID1223,45,Male,18.6,Smoker,Heart Disease,133939,North,7,Individual,8148.63,3,No
+PID1224,45,Female,23.3,Smoker,None,124199,South,0,Individual,10092.76,3,No
+PID1225,61,Male,16.3,Smoker,Diabetes,99530,East,4,Family,8106.67,5,Yes
+PID1226,61,Other,37.0,Smoker,None,43499,West,3,Corporate,7817.09,2,No
+PID1227,37,Male,36.9,Non-Smoker,Diabetes,108576,South,4,Individual,8165.75,5,No
+PID1228,47,Female,30.1,Smoker,Hypertension,128856,North,7,Individual,9681.28,2,No
+PID1229,79,Female,21.9,Non-Smoker,Diabetes,102495,East,9,Corporate,8981.1,1,Yes
+PID1230,28,Female,38.9,Smoker,Diabetes,141717,South,3,Corporate,13103.77,2,Yes
+PID1231,75,Male,24.0,Smoker,Asthma,91635,North,3,Senior,2643.46,3,Yes
+PID1232,72,Female,25.9,Smoker,Heart Disease,127803,East,2,Corporate,12833.12,3,Yes
+PID1233,45,Female,27.8,Non-Smoker,Heart Disease,105112,North,6,Family,12971.02,2,No
+PID1234,42,Male,29.3,Smoker,Hypertension,55946,East,2,Family,5703.8,2,Yes
+PID1235,56,Other,30.2,Non-Smoker,Hypertension,75204,West,2,Senior,8017.08,2,No
+PID1236,79,Male,30.4,Non-Smoker,Heart Disease,71886,South,9,Individual,7701.0,5,No
+PID1237,50,Female,26.3,Smoker,Asthma,91652,North,4,Individual,4840.63,2,No
+PID1238,18,Female,30.3,Smoker,Heart Disease,35563,East,4,Corporate,7158.36,1,No
+PID1239,74,Male,26.1,Smoker,Asthma,112324,North,5,Family,2577.04,5,Yes
+PID1240,44,Other,29.9,Non-Smoker,Hypertension,112464,North,7,Individual,5611.69,5,Yes
+PID1241,79,Female,29.5,Smoker,None,121872,South,9,Senior,12616.87,2,Yes
+PID1242,74,Female,30.8,Non-Smoker,Hypertension,29847,West,5,Senior,5699.31,1,No
+PID1243,69,Female,30.2,Non-Smoker,Hypertension,46155,North,0,Family,12636.69,5,No
+PID1244,30,Male,24.8,Smoker,Diabetes,99671,East,7,Senior,8910.79,3,No
+PID1245,58,Female,29.3,Smoker,Diabetes,136891,East,7,Senior,13438.21,5,No
+PID1246,20,Other,30.3,Non-Smoker,Diabetes,103310,West,8,Family,9472.13,2,No
+PID1247,56,Female,20.5,Non-Smoker,Diabetes,87278,East,8,Corporate,2385.69,1,Yes
+PID1248,23,Female,25.6,Non-Smoker,Asthma,38309,West,1,Corporate,10780.46,2,No
+PID1249,25,Other,30.0,Smoker,Heart Disease,20619,East,1,Senior,2583.1,3,Yes
+PID1250,44,Female,35.5,Non-Smoker,None,103194,South,2,Corporate,7857.76,3,No
+PID1251,26,Male,31.1,Smoker,Hypertension,70108,North,0,Corporate,14082.55,3,No
+PID1252,79,Male,35.9,Non-Smoker,Asthma,54707,South,3,Senior,4147.65,2,Yes
+PID1253,54,Male,25.0,Non-Smoker,None,40337,North,3,Corporate,7068.34,5,Yes
+PID1254,50,Other,28.3,Smoker,Asthma,145261,North,8,Senior,11488.18,2,No
+PID1255,68,Female,31.0,Non-Smoker,Asthma,101537,North,8,Individual,13469.36,1,No
+PID1256,59,Male,15.4,Smoker,Hypertension,86504,South,8,Family,10722.26,5,No
+PID1257,61,Other,34.6,Smoker,Heart Disease,67614,North,9,Family,5356.25,3,No
+PID1258,41,Female,17.7,Non-Smoker,Diabetes,111428,South,6,Corporate,10769.9,2,Yes
+PID1259,32,Other,32.0,Smoker,Heart Disease,111155,West,1,Corporate,5857.46,3,No
+PID1260,76,Male,30.4,Smoker,Hypertension,20281,East,9,Corporate,11339.58,3,Yes
+PID1261,71,Male,15.3,Non-Smoker,Hypertension,47420,East,4,Family,14402.43,1,No
+PID1262,49,Male,15.6,Smoker,Hypertension,100896,North,3,Individual,11378.11,5,Yes
+PID1263,49,Other,34.2,Smoker,None,59030,South,7,Individual,13217.45,1,Yes
+PID1264,41,Other,33.1,Smoker,Heart Disease,21058,East,1,Family,2027.35,1,No
+PID1265,58,Male,22.6,Non-Smoker,Heart Disease,106213,South,5,Individual,11328.44,1,Yes
+PID1266,69,Other,22.6,Smoker,Asthma,96260,South,4,Family,12784.64,3,No
+PID1267,66,Male,29.6,Non-Smoker,Asthma,48404,North,1,Individual,2527.26,1,Yes
+PID1268,79,Male,26.9,Non-Smoker,Asthma,123482,East,9,Senior,13330.77,1,No
+PID1269,66,Female,32.3,Smoker,Hypertension,125284,North,0,Senior,5337.02,5,Yes
+PID1270,75,Other,29.4,Smoker,Heart Disease,49856,North,7,Family,10648.8,5,No
+PID1271,69,Male,34.9,Smoker,Hypertension,29200,East,1,Individual,12404.61,1,No
+PID1272,29,Male,31.9,Non-Smoker,None,84178,East,6,Corporate,10614.64,5,Yes
+PID1273,79,Other,30.6,Smoker,Asthma,53997,West,8,Individual,3199.7,5,Yes
+PID1274,56,Female,25.2,Smoker,Hypertension,45611,West,8,Senior,9752.18,1,Yes
+PID1275,19,Female,24.9,Smoker,Hypertension,139273,South,7,Senior,9144.59,3,Yes
+PID1276,20,Male,26.7,Smoker,None,61235,East,9,Individual,13704.18,1,No
+PID1277,66,Other,36.2,Smoker,Diabetes,137428,West,8,Individual,7255.12,5,Yes
+PID1278,54,Female,25.0,Non-Smoker,Heart Disease,55057,South,1,Corporate,6174.05,3,No
+PID1279,66,Other,28.3,Non-Smoker,Diabetes,21239,South,5,Corporate,11748.06,2,Yes
+PID1280,73,Other,15.8,Smoker,Asthma,123674,South,3,Individual,7364.78,3,No
+PID1281,34,Male,30.4,Smoker,Hypertension,134474,West,3,Individual,10399.25,5,No
+PID1282,76,Female,38.3,Smoker,None,85661,East,4,Individual,10403.85,3,No
+PID1283,66,Male,22.3,Smoker,None,146945,North,2,Individual,13544.51,1,No
+PID1284,19,Female,42.9,Non-Smoker,Heart Disease,65272,South,0,Family,9783.0,2,Yes
+PID1285,19,Female,27.9,Smoker,Diabetes,109393,West,7,Individual,8528.0,2,Yes
+PID1286,45,Female,14.1,Non-Smoker,Heart Disease,81212,West,4,Corporate,3805.33,2,No
+PID1287,71,Female,25.1,Non-Smoker,Hypertension,144088,North,2,Senior,3504.59,5,Yes
+PID1288,40,Female,33.7,Smoker,Heart Disease,35398,North,9,Family,4006.18,5,Yes
+PID1289,54,Other,37.0,Non-Smoker,None,140030,West,6,Individual,4234.03,2,No
+PID1290,49,Male,30.6,Non-Smoker,None,76503,East,6,Senior,10292.4,3,Yes
+PID1291,50,Other,34.8,Non-Smoker,Asthma,26638,North,0,Family,11632.76,2,Yes
+PID1292,18,Female,21.1,Non-Smoker,Asthma,26570,West,8,Senior,8889.89,3,Yes
+PID1293,36,Male,23.6,Smoker,Hypertension,88785,North,1,Individual,12777.23,3,No
+PID1294,79,Female,18.6,Smoker,Diabetes,29110,East,4,Individual,14886.42,5,Yes
+PID1295,19,Male,24.0,Non-Smoker,Heart Disease,125899,South,4,Corporate,12660.16,3,No
+PID1296,70,Other,30.8,Smoker,Hypertension,99141,North,7,Individual,11033.47,2,Yes
+PID1297,61,Male,28.1,Smoker,Asthma,32115,East,7,Individual,8922.41,5,Yes
+PID1298,43,Male,31.3,Smoker,Heart Disease,59062,West,6,Family,7835.09,1,Yes
+PID1299,49,Male,22.3,Smoker,Asthma,42911,North,6,Corporate,3097.1,1,No
+PID1300,23,Male,22.6,Smoker,Heart Disease,124061,North,5,Family,7191.79,5,No
+PID1301,49,Male,28.0,Non-Smoker,Diabetes,52556,West,5,Senior,13831.75,2,Yes
+PID1302,72,Female,24.0,Smoker,Hypertension,98131,South,8,Individual,12504.29,1,No
+PID1303,21,Male,33.5,Smoker,Heart Disease,148335,West,5,Senior,4808.67,1,Yes
+PID1304,72,Male,23.9,Smoker,None,21969,North,1,Family,8065.9,3,No
+PID1305,28,Other,24.5,Smoker,None,63753,West,1,Individual,12617.4,3,No
+PID1306,73,Male,29.1,Non-Smoker,Heart Disease,102811,East,4,Individual,2876.0,2,Yes
+PID1307,76,Other,25.1,Non-Smoker,Heart Disease,24470,West,3,Family,7036.1,5,Yes
+PID1308,34,Female,20.8,Non-Smoker,Heart Disease,141863,North,1,Family,13073.94,2,Yes
+PID1309,55,Male,21.5,Non-Smoker,None,30225,West,2,Family,7250.67,5,Yes
+PID1310,41,Other,29.7,Smoker,None,127860,South,6,Family,3008.99,1,No
+PID1311,22,Other,20.2,Non-Smoker,Heart Disease,143008,West,7,Family,9052.95,3,No
+PID1312,69,Female,34.0,Smoker,Asthma,127510,South,5,Individual,13202.65,2,No
+PID1313,51,Male,23.5,Smoker,Asthma,128295,East,4,Family,9673.71,2,Yes
+PID1314,23,Male,30.1,Smoker,Diabetes,43196,South,0,Individual,4941.63,5,Yes
+PID1315,39,Other,23.8,Smoker,Hypertension,125823,West,7,Individual,6995.12,5,No
+PID1316,28,Male,22.4,Smoker,Asthma,33669,North,2,Family,7851.6,2,Yes
+PID1317,65,Other,28.2,Non-Smoker,None,57380,South,5,Family,9530.46,5,No
+PID1318,33,Male,32.3,Non-Smoker,Asthma,144398,East,2,Corporate,11871.56,2,No
+PID1319,50,Other,25.8,Non-Smoker,Diabetes,130677,South,6,Individual,3285.36,2,No
+PID1320,26,Male,26.7,Non-Smoker,Diabetes,135886,South,6,Family,13565.48,2,No
+PID1321,77,Female,31.0,Smoker,Hypertension,146753,South,8,Family,2160.03,1,No
+PID1322,76,Male,31.2,Non-Smoker,Asthma,68320,East,4,Family,6810.68,5,Yes
+PID1323,23,Male,26.8,Smoker,None,67414,West,7,Corporate,2356.46,3,Yes
+PID1324,33,Female,24.8,Non-Smoker,None,123542,South,9,Corporate,7108.66,3,Yes
+PID1325,46,Male,27.4,Smoker,Heart Disease,35577,South,9,Senior,8835.56,5,No
+PID1326,20,Female,26.0,Smoker,None,145354,North,7,Individual,8651.86,2,No
+PID1327,37,Male,28.6,Non-Smoker,Hypertension,108009,East,0,Senior,4153.17,3,No
+PID1328,77,Other,21.0,Smoker,Hypertension,146365,South,4,Family,10394.63,3,No
+PID1329,76,Other,28.4,Smoker,None,75409,East,2,Corporate,2582.12,5,Yes
+PID1330,53,Male,23.4,Non-Smoker,None,48625,South,0,Corporate,11904.79,3,Yes
+PID1331,36,Male,31.5,Smoker,Heart Disease,101040,West,3,Senior,14306.38,2,No
+PID1332,43,Male,23.6,Non-Smoker,None,44089,West,7,Corporate,6416.99,5,No
+PID1333,20,Other,23.7,Non-Smoker,Heart Disease,56487,South,2,Family,8724.11,2,No
+PID1334,36,Male,29.2,Non-Smoker,Heart Disease,85838,West,9,Corporate,6925.83,3,Yes
+PID1335,37,Other,27.1,Smoker,None,116999,South,1,Senior,2087.24,3,Yes
+PID1336,49,Female,38.4,Smoker,Diabetes,130448,West,8,Family,7016.37,2,Yes
+PID1337,24,Other,18.9,Smoker,Diabetes,114795,North,9,Senior,12292.36,1,No
+PID1338,69,Other,27.5,Non-Smoker,Heart Disease,70138,North,4,Corporate,9747.85,3,No
