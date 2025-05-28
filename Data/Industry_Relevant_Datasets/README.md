@@ -14,3 +14,14 @@ The Health Insurance dataset contains information about individuals and their he
 ### Description 
 The Retail/Consumer dataset represents transactional data from a retail store. Each record includes details such as Transaction_ID, Customer_ID, Product_Category, and Product_Price. Demographic features like Gender, Age, and Store_Region are included along with purchase-specific data such as Quantity, Discount_Applied, Payment_Method, and Purchase_Date. Additionally, customer feedback is captured through Customer_Satisfaction_Score and Repeat_Customer status. This dataset is suitable for predictive modeling tasks such as customer retention, satisfaction analysis, and sales forecasting.
 
+## Data 5 - Loan (loan_default.csv)
+### Description
+This dataset captures information about personal loan applicants, including their age, income, employment length, home ownership, and credit history. It also includes details about the loan itself, such as purpose, amount, interest rate, grade, and status. The dataset helps in analyzing creditworthiness and loan default risk.
+
+
+
+
+
+
+
+
