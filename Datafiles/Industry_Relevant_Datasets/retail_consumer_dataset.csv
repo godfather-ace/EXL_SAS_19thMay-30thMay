@@ -1,0 +1,474 @@
+Transaction_ID,Customer_ID,Gender,Age,Product_Category,Product_Price,Quantity,Payment_Method,Store_Region,Purchase_Date,Discount_Applied,Customer_Satisfaction_Score,Repeat_Customer
+TID10000,CUST1821,Other,55,Electronics,527.11,1,Debit Card,West,2024-11-12,Yes,10,No
+TID10001,CUST1546,Female,39,Clothing,776.37,1,Digital Wallet,East,2024-12-16,No,3,Yes
+TID10002,CUST1178,Male,43,Clothing,238.25,4,Debit Card,South,2023-02-25,Yes,2,No
+TID10003,CUST1922,Female,60,Clothing,348.36,3,Credit Card,East,2024-12-20,No,6,Yes
+TID10004,CUST1138,Male,56,Furniture,34.95,1,Digital Wallet,West,2024-07-06,No,2,No
+TID10005,CUST1887,Female,44,Grocery,961.68,4,Credit Card,East,2023-02-01,No,5,No
+TID10006,CUST1545,Other,46,Clothing,669.53,3,Cash,West,2024-06-10,No,2,No
+TID10007,CUST1503,Male,64,Clothing,933.54,1,Cash,West,2024-07-27,Yes,3,Yes
+TID10008,CUST1866,Other,55,Beauty,269.17,4,Debit Card,West,2024-10-28,No,3,Yes
+TID10009,CUST1046,Other,37,Electronics,613.41,4,Cash,South,2023-10-11,No,6,No
+TID10010,CUST1222,Male,44,Beauty,680.11,3,Credit Card,East,2024-12-21,No,6,Yes
+TID10011,CUST1529,Male,58,Beauty,320.96,4,Cash,East,2024-05-08,No,10,Yes
+TID10012,CUST1558,Other,37,Electronics,848.87,3,Credit Card,North,2023-07-06,Yes,3,No
+TID10013,CUST1797,Other,61,Grocery,947.43,3,Debit Card,North,2024-05-12,Yes,3,Yes
+TID10014,CUST1950,Other,36,Beauty,885.43,3,Debit Card,North,2024-03-17,No,1,No
+TID10015,CUST1854,Other,37,Grocery,740.37,2,Credit Card,North,2023-05-10,No,7,No
+TID10016,CUST1526,Male,52,Beauty,281.08,4,Cash,East,2024-09-30,No,8,No
+TID10017,CUST1822,Male,64,Books,285.21,3,Debit Card,West,2023-10-19,Yes,2,Yes
+TID10018,CUST1762,Other,19,Electronics,963.54,1,Digital Wallet,West,2023-04-24,Yes,4,No
+TID10019,CUST1460,Female,47,Beauty,15.23,2,Debit Card,South,2023-07-18,Yes,10,No
+TID10020,CUST1988,Female,51,Books,717.47,2,Cash,West,2023-01-13,Yes,7,Yes
+TID10021,CUST1530,Male,39,Furniture,707.71,4,Digital Wallet,East,2023-09-28,Yes,8,Yes
+TID10022,CUST1324,Other,20,Books,624.58,3,Cash,East,2024-08-23,No,1,Yes
+TID10023,CUST1193,Other,23,Clothing,990.16,4,Credit Card,East,2023-08-03,Yes,4,Yes
+TID10024,CUST1262,Male,32,Beauty,315.32,2,Digital Wallet,South,2024-03-19,Yes,6,No
+TID10025,CUST1423,Female,44,Books,343.27,3,Cash,North,2024-05-26,No,3,Yes
+TID10026,CUST1420,Female,27,Grocery,83.54,1,Digital Wallet,West,2024-03-22,Yes,5,Yes
+TID10027,CUST1439,Female,26,Furniture,445.58,3,Cash,East,2024-12-15,Yes,10,Yes
+TID10028,CUST1672,Male,50,Beauty,264.74,2,Digital Wallet,East,2023-03-15,Yes,9,Yes
+TID10029,CUST1526,Female,49,Clothing,346.67,1,Cash,North,2024-06-20,No,3,No
+TID10030,CUST1360,Male,65,Books,835.4,3,Credit Card,East,2023-04-11,Yes,5,Yes
+TID10031,CUST1207,Male,23,Furniture,935.81,1,Digital Wallet,West,2023-06-25,No,8,No
+TID10032,CUST1706,Other,58,Beauty,189.8,1,Digital Wallet,South,2024-03-02,No,6,Yes
+TID10033,CUST1332,Female,53,Furniture,375.65,2,Digital Wallet,East,2023-04-27,Yes,4,No
+TID10034,CUST1148,Male,19,Clothing,928.99,1,Digital Wallet,West,2023-06-15,Yes,8,No
+TID10035,CUST1857,Female,46,Books,66.5,4,Credit Card,East,2023-02-10,Yes,3,Yes
+TID10036,CUST1597,Female,21,Furniture,96.9,2,Digital Wallet,North,2024-03-04,Yes,3,No
+TID10037,CUST1111,Other,18,Furniture,166.98,4,Debit Card,East,2023-12-10,No,4,Yes
+TID10038,CUST1888,Female,36,Electronics,597.24,1,Credit Card,East,2024-02-28,Yes,9,No
+TID10039,CUST1571,Other,43,Furniture,154.72,4,Debit Card,South,2024-01-01,No,5,No
+TID10040,CUST1583,Male,42,Electronics,968.24,3,Digital Wallet,North,2023-04-30,No,8,No
+TID10041,CUST1815,Female,27,Books,449.48,1,Cash,North,2024-08-31,No,6,Yes
+TID10042,CUST1091,Male,32,Beauty,504.01,3,Debit Card,South,2024-10-18,No,3,No
+TID10043,CUST1131,Female,39,Beauty,250.43,4,Digital Wallet,East,2024-12-28,No,8,Yes
+TID10044,CUST1482,Male,68,Books,473.61,3,Debit Card,West,2023-08-17,Yes,9,No
+TID10045,CUST1125,Female,65,Books,663.6,1,Digital Wallet,North,2023-05-10,No,8,No
+TID10046,CUST1188,Female,38,Grocery,752.42,3,Digital Wallet,North,2023-12-18,No,4,No
+TID10047,CUST1443,Female,39,Books,755.1,4,Digital Wallet,East,2023-11-14,Yes,6,No
+TID10048,CUST1278,Female,53,Furniture,580.0,4,Cash,East,2024-10-10,Yes,1,No
+TID10049,CUST1545,Female,51,Beauty,904.84,4,Debit Card,North,2023-12-03,No,4,No
+TID10050,CUST1129,Female,47,Clothing,818.32,1,Credit Card,East,2023-09-30,No,8,Yes
+TID10051,CUST1698,Female,42,Beauty,758.26,4,Credit Card,West,2023-04-27,Yes,1,Yes
+TID10052,CUST1326,Female,62,Electronics,60.33,1,Credit Card,North,2024-01-03,No,3,Yes
+TID10053,CUST1195,Female,45,Beauty,11.84,3,Credit Card,West,2023-04-04,Yes,1,No
+TID10054,CUST1393,Male,18,Grocery,216.39,4,Digital Wallet,West,2023-06-17,Yes,9,Yes
+TID10055,CUST1894,Other,66,Books,665.21,3,Debit Card,East,2024-12-15,No,2,No
+TID10056,CUST1148,Female,62,Books,414.14,2,Debit Card,West,2023-12-07,Yes,9,Yes
+TID10057,CUST1105,Other,21,Beauty,405.39,3,Cash,East,2024-10-22,No,4,Yes
+TID10058,CUST1342,Female,24,Clothing,885.16,2,Debit Card,South,2024-11-25,No,2,No
+TID10059,CUST1530,Female,66,Clothing,896.09,3,Debit Card,East,2023-06-01,No,4,No
+TID10060,CUST1288,Male,26,Grocery,909.63,1,Debit Card,West,2024-08-08,Yes,10,Yes
+TID10061,CUST1946,Male,53,Electronics,317.31,3,Cash,South,2023-10-01,No,6,Yes
+TID10062,CUST1441,Other,36,Beauty,692.6,1,Credit Card,East,2024-07-07,Yes,7,Yes
+TID10063,CUST1335,Male,18,Books,275.28,1,Debit Card,West,2024-05-10,No,3,Yes
+TID10064,CUST1824,Male,27,Beauty,194.66,4,Cash,North,2024-12-24,No,3,No
+TID10065,CUST1733,Other,53,Grocery,188.71,1,Cash,North,2023-04-11,Yes,10,Yes
+TID10066,CUST1019,Male,26,Furniture,345.4,2,Digital Wallet,East,2024-07-10,No,8,No
+TID10067,CUST1905,Female,62,Furniture,432.81,4,Cash,East,2023-03-23,No,5,No
+TID10068,CUST1559,Other,63,Grocery,831.79,4,Credit Card,North,2024-06-12,Yes,4,Yes
+TID10069,CUST1475,Other,59,Books,124.29,3,Debit Card,West,2023-03-14,Yes,7,No
+TID10070,CUST1974,Female,49,Grocery,736.25,1,Cash,West,2023-01-14,Yes,7,Yes
+TID10071,CUST1957,Male,49,Books,533.8,1,Credit Card,West,2024-03-08,No,9,No
+TID10072,CUST1746,Other,23,Clothing,291.51,2,Cash,East,2023-06-06,Yes,9,No
+TID10073,CUST1571,Other,65,Grocery,495.36,3,Cash,South,2023-05-12,Yes,5,Yes
+TID10074,CUST1707,Female,55,Books,303.44,3,Cash,South,2023-12-04,No,8,No
+TID10075,CUST1893,Female,34,Grocery,598.1,4,Cash,South,2024-02-08,Yes,10,No
+TID10076,CUST1518,Male,27,Grocery,436.67,4,Cash,South,2024-01-11,No,1,Yes
+TID10077,CUST1694,Other,67,Books,168.58,4,Credit Card,South,2024-07-12,No,9,No
+TID10078,CUST1073,Male,44,Books,121.0,2,Debit Card,East,2023-04-17,Yes,8,No
+TID10079,CUST1404,Male,67,Electronics,548.96,2,Debit Card,East,2024-09-11,No,6,Yes
+TID10080,CUST1055,Female,52,Grocery,902.9,4,Debit Card,South,2023-09-22,Yes,3,Yes
+TID10081,CUST1545,Other,69,Furniture,347.24,3,Debit Card,East,2023-07-24,Yes,3,No
+TID10082,CUST1892,Other,38,Grocery,734.34,2,Credit Card,East,2023-03-20,Yes,8,No
+TID10083,CUST1054,Other,42,Grocery,660.37,3,Digital Wallet,South,2023-06-04,Yes,5,No
+TID10084,CUST1994,Female,45,Books,931.9,3,Digital Wallet,West,2023-09-04,No,10,Yes
+TID10085,CUST1685,Female,64,Grocery,821.88,1,Credit Card,East,2024-06-14,No,7,No
+TID10086,CUST1638,Female,32,Beauty,568.77,4,Credit Card,West,2024-06-21,Yes,5,No
+TID10087,CUST1315,Female,21,Grocery,658.75,1,Cash,East,2024-12-29,Yes,8,No
+TID10088,CUST1275,Female,46,Beauty,898.89,4,Cash,East,2023-06-03,No,10,No
+TID10089,CUST1167,Other,26,Furniture,402.52,4,Cash,South,2023-06-03,Yes,10,No
+TID10090,CUST1322,Male,44,Books,330.16,3,Debit Card,East,2024-11-16,No,4,No
+TID10091,CUST1769,Other,43,Grocery,15.76,4,Cash,North,2023-04-02,Yes,2,Yes
+TID10092,CUST1893,Male,36,Beauty,827.42,3,Digital Wallet,North,2024-03-08,No,3,Yes
+TID10093,CUST1188,Female,45,Beauty,801.98,3,Debit Card,South,2023-12-04,No,8,No
+TID10094,CUST1325,Male,34,Beauty,108.93,4,Cash,West,2024-04-24,No,7,No
+TID10095,CUST1144,Other,60,Clothing,578.97,3,Debit Card,West,2024-11-23,Yes,2,Yes
+TID10096,CUST1902,Other,58,Electronics,466.66,3,Digital Wallet,West,2023-05-11,Yes,6,Yes
+TID10097,CUST1135,Male,59,Furniture,123.12,3,Cash,North,2024-03-25,Yes,9,Yes
+TID10098,CUST1483,Female,67,Grocery,980.67,2,Digital Wallet,West,2023-09-30,Yes,4,No
+TID10099,CUST1335,Female,37,Clothing,218.62,3,Digital Wallet,West,2024-08-10,Yes,9,No
+TID10100,CUST1847,Other,62,Grocery,71.9,2,Digital Wallet,South,2023-06-26,No,2,No
+TID10101,CUST1339,Male,57,Grocery,596.87,2,Cash,West,2024-11-26,No,2,No
+TID10102,CUST1626,Female,56,Books,740.17,3,Credit Card,North,2024-10-04,No,9,Yes
+TID10103,CUST1818,Female,66,Books,37.28,3,Cash,North,2023-02-18,No,7,Yes
+TID10104,CUST1111,Other,40,Books,660.42,2,Digital Wallet,North,2024-07-20,No,7,Yes
+TID10105,CUST1313,Female,64,Clothing,534.63,2,Cash,South,2024-10-27,No,1,Yes
+TID10106,CUST1908,Male,49,Grocery,107.75,3,Digital Wallet,South,2023-12-21,No,6,No
+TID10107,CUST1711,Other,69,Electronics,176.66,3,Credit Card,East,2024-12-12,Yes,7,No
+TID10108,CUST1150,Other,64,Furniture,570.13,4,Debit Card,West,2023-11-04,No,6,Yes
+TID10109,CUST1528,Male,50,Books,299.88,2,Credit Card,South,2024-09-21,Yes,6,Yes
+TID10110,CUST1375,Other,63,Books,938.62,2,Credit Card,North,2023-02-15,No,2,Yes
+TID10111,CUST1233,Female,22,Grocery,819.65,4,Debit Card,North,2023-10-29,No,6,Yes
+TID10112,CUST1913,Female,60,Grocery,983.65,2,Cash,South,2024-02-12,Yes,4,Yes
+TID10113,CUST1987,Male,65,Clothing,263.37,1,Debit Card,South,2023-07-08,No,9,No
+TID10114,CUST1315,Female,51,Clothing,969.88,2,Cash,South,2023-05-09,Yes,1,No
+TID10115,CUST1830,Male,57,Books,434.08,4,Cash,East,2024-07-14,No,8,Yes
+TID10116,CUST1291,Male,28,Grocery,350.78,1,Digital Wallet,North,2024-06-20,Yes,5,Yes
+TID10117,CUST1384,Female,67,Electronics,55.1,3,Digital Wallet,East,2023-09-23,No,1,Yes
+TID10118,CUST1851,Male,20,Furniture,57.5,4,Debit Card,East,2023-04-28,Yes,4,No
+TID10119,CUST1001,Female,50,Grocery,693.55,4,Credit Card,West,2024-04-08,Yes,1,No
+TID10120,CUST1241,Other,28,Grocery,460.64,3,Debit Card,North,2023-05-24,No,6,No
+TID10121,CUST1332,Other,33,Beauty,230.39,4,Cash,North,2024-03-17,No,2,Yes
+TID10122,CUST1055,Male,35,Clothing,615.9,2,Digital Wallet,South,2023-07-19,Yes,5,No
+TID10123,CUST1875,Female,47,Furniture,256.59,3,Debit Card,South,2023-06-06,No,7,Yes
+TID10124,CUST1967,Female,65,Books,579.74,4,Debit Card,West,2024-05-01,Yes,2,No
+TID10125,CUST1361,Other,27,Grocery,362.41,3,Digital Wallet,East,2023-05-14,No,6,No
+TID10126,CUST1685,Other,35,Books,824.43,3,Digital Wallet,South,2023-05-28,Yes,6,No
+TID10127,CUST1529,Female,55,Grocery,821.59,3,Digital Wallet,South,2023-12-02,No,5,Yes
+TID10128,CUST1270,Male,36,Books,479.96,1,Cash,North,2023-03-12,Yes,5,Yes
+TID10129,CUST1779,Other,53,Furniture,354.07,4,Digital Wallet,North,2023-08-21,No,3,No
+TID10130,CUST1592,Male,30,Clothing,365.75,1,Credit Card,South,2023-11-30,Yes,10,Yes
+TID10131,CUST1893,Male,63,Furniture,806.69,4,Debit Card,North,2024-10-27,Yes,10,Yes
+TID10132,CUST1964,Other,20,Beauty,331.54,2,Digital Wallet,West,2023-03-31,No,2,Yes
+TID10133,CUST1474,Male,27,Electronics,213.01,2,Digital Wallet,South,2023-11-30,No,7,Yes
+TID10134,CUST1343,Male,55,Clothing,89.26,2,Cash,North,2023-07-18,Yes,1,Yes
+TID10135,CUST1429,Female,18,Furniture,469.36,4,Cash,West,2023-06-10,Yes,6,Yes
+TID10136,CUST1794,Male,44,Beauty,484.72,3,Debit Card,North,2024-06-21,Yes,6,Yes
+TID10137,CUST1560,Female,63,Electronics,841.7,3,Credit Card,North,2023-05-01,Yes,3,No
+TID10138,CUST1353,Other,25,Beauty,225.13,1,Debit Card,North,2023-10-28,No,2,Yes
+TID10139,CUST1617,Other,68,Grocery,384.09,1,Digital Wallet,South,2024-12-24,Yes,2,Yes
+TID10140,CUST1823,Female,63,Grocery,809.36,2,Credit Card,East,2024-07-28,Yes,9,No
+TID10141,CUST1542,Other,59,Books,824.51,1,Credit Card,North,2024-03-11,Yes,5,No
+TID10142,CUST1315,Male,34,Clothing,387.69,4,Credit Card,West,2023-03-09,No,7,No
+TID10143,CUST1856,Male,26,Grocery,461.83,4,Credit Card,South,2024-04-03,Yes,5,No
+TID10144,CUST1628,Male,23,Beauty,306.77,1,Debit Card,South,2024-05-28,No,7,Yes
+TID10145,CUST1170,Other,60,Clothing,932.89,1,Cash,West,2024-02-02,No,4,No
+TID10146,CUST1167,Male,42,Grocery,123.05,1,Cash,North,2024-09-11,No,8,No
+TID10147,CUST1069,Other,56,Books,934.08,1,Digital Wallet,East,2023-10-13,No,10,Yes
+TID10148,CUST1994,Male,66,Furniture,685.45,2,Cash,North,2024-07-14,No,10,Yes
+TID10149,CUST1462,Female,45,Books,533.91,2,Cash,West,2023-05-20,No,7,Yes
+TID10150,CUST1356,Other,50,Electronics,37.5,1,Cash,South,2024-12-30,No,10,No
+TID10151,CUST1953,Other,54,Grocery,478.22,4,Cash,East,2024-07-09,Yes,5,Yes
+TID10152,CUST1710,Male,26,Electronics,410.71,2,Digital Wallet,South,2024-08-12,Yes,6,No
+TID10153,CUST1121,Other,35,Electronics,165.41,4,Debit Card,West,2024-12-28,No,5,Yes
+TID10154,CUST1796,Other,38,Beauty,658.13,3,Credit Card,North,2024-09-01,Yes,7,Yes
+TID10155,CUST1322,Female,19,Clothing,971.3,4,Cash,East,2023-10-09,Yes,2,No
+TID10156,CUST1082,Female,60,Beauty,564.38,1,Debit Card,South,2024-10-22,No,5,Yes
+TID10157,CUST1197,Male,55,Grocery,716.18,3,Cash,South,2024-07-31,Yes,10,Yes
+TID10158,CUST1291,Female,57,Electronics,73.11,2,Cash,South,2024-04-01,No,3,Yes
+TID10159,CUST1701,Male,53,Furniture,420.58,2,Credit Card,North,2023-03-28,Yes,9,Yes
+TID10160,CUST1646,Male,67,Electronics,120.78,3,Credit Card,East,2023-03-20,No,6,Yes
+TID10161,CUST1330,Male,60,Furniture,614.73,4,Credit Card,North,2023-07-24,No,10,No
+TID10162,CUST1754,Other,54,Beauty,938.79,2,Cash,North,2023-12-03,Yes,3,No
+TID10163,CUST1859,Female,32,Beauty,663.47,1,Cash,North,2023-09-11,Yes,7,Yes
+TID10164,CUST1872,Male,45,Clothing,81.42,3,Cash,West,2023-10-31,No,4,No
+TID10165,CUST1913,Female,35,Electronics,357.89,1,Credit Card,West,2024-01-15,No,3,No
+TID10166,CUST1971,Male,51,Books,552.91,3,Digital Wallet,West,2023-05-10,No,8,No
+TID10167,CUST1797,Female,39,Beauty,406.19,2,Debit Card,East,2024-08-18,Yes,4,Yes
+TID10168,CUST1286,Female,28,Beauty,834.48,4,Digital Wallet,North,2023-10-03,Yes,1,Yes
+TID10169,CUST1645,Male,30,Clothing,815.6,3,Cash,North,2024-11-29,Yes,6,Yes
+TID10170,CUST1961,Other,21,Furniture,613.77,3,Cash,West,2024-07-11,Yes,10,No
+TID10171,CUST1378,Female,39,Clothing,376.59,1,Digital Wallet,North,2023-07-02,No,1,No
+TID10172,CUST1414,Other,24,Electronics,259.06,2,Cash,North,2023-09-25,No,5,Yes
+TID10173,CUST1166,Other,60,Grocery,110.34,1,Debit Card,South,2023-11-18,No,7,Yes
+TID10174,CUST1007,Male,41,Grocery,358.12,2,Cash,North,2024-05-26,No,6,No
+TID10175,CUST1436,Male,21,Furniture,416.11,1,Debit Card,South,2024-09-03,Yes,2,No
+TID10176,CUST1312,Male,45,Beauty,677.44,3,Digital Wallet,North,2023-03-19,No,4,Yes
+TID10177,CUST1184,Female,32,Furniture,659.87,1,Digital Wallet,East,2023-12-05,No,2,No
+TID10178,CUST1139,Male,18,Beauty,74.76,4,Cash,West,2024-11-04,Yes,1,No
+TID10179,CUST1142,Male,20,Beauty,398.28,2,Debit Card,South,2024-07-09,Yes,3,No
+TID10180,CUST1129,Female,31,Grocery,185.87,2,Cash,West,2024-05-23,No,3,No
+TID10181,CUST1544,Female,55,Furniture,161.03,3,Credit Card,South,2023-08-26,Yes,7,No
+TID10182,CUST1483,Male,67,Clothing,828.17,2,Credit Card,South,2023-05-14,No,1,No
+TID10183,CUST1915,Male,18,Beauty,46.71,4,Credit Card,South,2023-07-11,Yes,9,No
+TID10184,CUST1371,Male,55,Books,422.09,1,Credit Card,East,2023-12-22,Yes,6,Yes
+TID10185,CUST1948,Male,55,Books,172.36,3,Cash,North,2023-10-05,No,4,Yes
+TID10186,CUST1682,Other,38,Clothing,879.93,4,Credit Card,South,2023-01-18,Yes,3,No
+TID10187,CUST1776,Other,65,Books,559.26,2,Debit Card,East,2024-06-07,No,3,No
+TID10188,CUST1759,Male,46,Electronics,235.22,2,Digital Wallet,South,2023-06-29,Yes,2,No
+TID10189,CUST1900,Other,22,Beauty,504.92,4,Digital Wallet,North,2023-05-03,Yes,2,Yes
+TID10190,CUST1121,Female,66,Clothing,732.83,1,Credit Card,South,2023-09-03,Yes,10,Yes
+TID10191,CUST1623,Other,27,Furniture,958.33,1,Credit Card,East,2024-01-08,Yes,5,No
+TID10192,CUST1920,Other,45,Beauty,224.34,3,Credit Card,North,2023-02-20,Yes,9,Yes
+TID10193,CUST1049,Male,38,Clothing,886.75,2,Cash,East,2023-03-12,No,2,No
+TID10194,CUST1345,Other,67,Grocery,934.63,4,Digital Wallet,North,2024-04-24,Yes,2,No
+TID10195,CUST1899,Other,24,Furniture,916.84,1,Credit Card,North,2024-07-13,No,6,No
+TID10196,CUST1610,Other,20,Grocery,637.24,3,Debit Card,West,2023-01-19,Yes,10,No
+TID10197,CUST1447,Other,62,Beauty,631.67,2,Credit Card,West,2023-03-25,No,2,No
+TID10198,CUST1645,Female,64,Furniture,406.19,2,Digital Wallet,West,2023-06-04,Yes,4,No
+TID10199,CUST1789,Male,37,Books,753.64,3,Credit Card,North,2024-07-18,No,6,No
+TID10200,CUST1623,Male,36,Clothing,533.64,3,Digital Wallet,South,2024-09-10,No,5,Yes
+TID10201,CUST1296,Female,52,Beauty,679.05,1,Credit Card,East,2023-12-23,Yes,1,No
+TID10202,CUST1402,Other,21,Electronics,431.32,4,Debit Card,East,2024-10-08,Yes,6,Yes
+TID10203,CUST1071,Female,22,Furniture,732.84,2,Credit Card,East,2024-03-18,Yes,1,No
+TID10204,CUST1313,Other,18,Furniture,825.35,4,Debit Card,West,2023-03-10,No,3,No
+TID10205,CUST1853,Female,21,Beauty,150.7,2,Debit Card,North,2024-06-06,No,10,Yes
+TID10206,CUST1166,Male,29,Beauty,833.77,2,Credit Card,West,2023-05-23,Yes,5,Yes
+TID10207,CUST1894,Male,44,Grocery,542.6,4,Debit Card,South,2023-07-11,Yes,10,No
+TID10208,CUST1074,Male,59,Books,845.44,3,Cash,North,2024-01-22,No,5,Yes
+TID10209,CUST1380,Other,40,Grocery,434.15,1,Credit Card,East,2024-01-13,No,10,No
+TID10210,CUST1111,Other,42,Grocery,382.15,2,Credit Card,West,2024-08-03,Yes,6,No
+TID10211,CUST1955,Female,38,Books,915.49,3,Debit Card,West,2024-06-18,No,10,Yes
+TID10212,CUST1672,Female,69,Electronics,254.91,2,Debit Card,South,2024-11-23,Yes,8,Yes
+TID10213,CUST1223,Male,41,Grocery,844.99,1,Credit Card,South,2023-10-20,Yes,5,Yes
+TID10214,CUST1340,Other,42,Grocery,486.6,2,Cash,West,2023-01-09,Yes,1,Yes
+TID10215,CUST1173,Female,62,Furniture,516.52,1,Debit Card,South,2023-09-28,No,5,No
+TID10216,CUST1573,Other,63,Books,311.93,1,Debit Card,East,2024-01-22,No,3,Yes
+TID10217,CUST1350,Other,49,Clothing,575.18,2,Digital Wallet,South,2023-04-03,No,4,Yes
+TID10218,CUST1403,Male,49,Electronics,328.59,2,Cash,South,2024-06-12,No,8,Yes
+TID10219,CUST1236,Male,22,Electronics,44.07,1,Cash,West,2023-06-03,Yes,7,Yes
+TID10220,CUST1133,Other,53,Books,275.64,3,Credit Card,West,2024-02-09,No,5,Yes
+TID10221,CUST1030,Other,63,Beauty,11.35,4,Cash,North,2023-05-29,Yes,2,No
+TID10222,CUST1812,Other,59,Beauty,978.46,1,Credit Card,North,2023-09-24,Yes,6,No
+TID10223,CUST1619,Other,66,Furniture,965.92,2,Digital Wallet,West,2024-02-26,Yes,6,Yes
+TID10224,CUST1576,Male,59,Furniture,398.18,2,Cash,South,2024-09-09,No,10,Yes
+TID10225,CUST1942,Female,56,Books,729.73,3,Debit Card,South,2024-04-16,Yes,10,No
+TID10226,CUST1394,Male,33,Furniture,349.08,4,Digital Wallet,North,2024-06-30,Yes,6,Yes
+TID10227,CUST1954,Female,50,Electronics,672.74,1,Credit Card,North,2024-09-22,No,9,No
+TID10228,CUST1432,Other,66,Electronics,806.4,1,Digital Wallet,North,2024-06-09,Yes,8,No
+TID10229,CUST1717,Female,38,Clothing,947.02,4,Credit Card,East,2024-05-17,No,8,Yes
+TID10230,CUST1713,Male,26,Beauty,403.21,1,Digital Wallet,East,2023-01-14,No,1,No
+TID10231,CUST1453,Male,23,Books,784.38,4,Credit Card,North,2024-10-13,No,5,Yes
+TID10232,CUST1426,Other,68,Grocery,269.6,2,Cash,South,2023-12-30,Yes,7,Yes
+TID10233,CUST1122,Male,62,Beauty,990.38,4,Debit Card,North,2023-04-29,No,6,No
+TID10234,CUST1763,Other,52,Grocery,30.64,1,Credit Card,East,2023-08-26,No,5,No
+TID10235,CUST1645,Male,56,Clothing,605.51,4,Digital Wallet,South,2024-06-29,No,8,Yes
+TID10236,CUST1668,Male,39,Clothing,661.21,3,Credit Card,East,2023-06-18,No,3,No
+TID10237,CUST1870,Other,58,Furniture,689.61,2,Credit Card,South,2024-06-05,Yes,6,Yes
+TID10238,CUST1192,Female,22,Clothing,124.79,2,Credit Card,East,2024-09-25,No,5,No
+TID10239,CUST1988,Male,59,Clothing,938.84,4,Digital Wallet,South,2024-10-18,Yes,8,No
+TID10240,CUST1778,Female,40,Grocery,185.28,1,Debit Card,South,2024-05-30,No,4,Yes
+TID10241,CUST1440,Male,34,Furniture,624.64,3,Cash,South,2024-02-01,Yes,8,Yes
+TID10242,CUST1645,Male,29,Clothing,226.56,2,Debit Card,South,2023-04-16,No,10,Yes
+TID10243,CUST1849,Male,40,Beauty,310.68,2,Credit Card,West,2023-03-26,Yes,2,No
+TID10244,CUST1680,Male,33,Clothing,548.73,1,Digital Wallet,East,2023-08-02,No,9,Yes
+TID10245,CUST1194,Female,20,Furniture,420.11,1,Debit Card,East,2023-05-01,Yes,9,Yes
+TID10246,CUST1245,Female,47,Books,164.42,3,Credit Card,West,2023-05-12,Yes,10,No
+TID10247,CUST1698,Male,39,Furniture,175.08,4,Cash,South,2023-07-16,Yes,10,No
+TID10248,CUST1616,Male,26,Grocery,421.05,1,Cash,South,2023-01-19,No,6,Yes
+TID10249,CUST1937,Female,46,Books,758.5,4,Cash,East,2024-10-03,Yes,4,Yes
+TID10250,CUST1973,Other,64,Beauty,898.47,3,Credit Card,West,2023-01-12,Yes,4,Yes
+TID10251,CUST1972,Other,54,Electronics,88.71,4,Digital Wallet,South,2023-03-22,Yes,6,Yes
+TID10252,CUST1360,Female,40,Furniture,396.14,2,Debit Card,South,2023-11-26,Yes,5,No
+TID10253,CUST1305,Male,30,Grocery,104.74,4,Cash,South,2024-01-27,No,6,No
+TID10254,CUST1510,Male,49,Beauty,21.51,3,Credit Card,North,2024-09-28,Yes,7,Yes
+TID10255,CUST1282,Other,63,Books,663.41,3,Credit Card,West,2023-11-03,Yes,7,Yes
+TID10256,CUST1739,Other,69,Beauty,604.44,3,Debit Card,South,2023-09-24,Yes,9,Yes
+TID10257,CUST1426,Female,64,Furniture,167.2,4,Cash,North,2024-03-22,No,8,No
+TID10258,CUST1110,Other,65,Clothing,237.64,2,Credit Card,West,2024-03-16,Yes,6,Yes
+TID10259,CUST1163,Female,40,Furniture,28.59,1,Debit Card,South,2024-10-13,Yes,6,Yes
+TID10260,CUST1163,Other,62,Electronics,835.77,2,Digital Wallet,East,2023-01-02,Yes,5,No
+TID10261,CUST1281,Other,34,Furniture,974.82,4,Digital Wallet,North,2024-06-03,Yes,1,No
+TID10262,CUST1533,Other,57,Books,139.78,4,Digital Wallet,North,2024-10-12,No,9,Yes
+TID10263,CUST1947,Male,38,Books,235.32,1,Cash,South,2024-09-27,Yes,9,Yes
+TID10264,CUST1283,Male,19,Furniture,869.07,4,Debit Card,South,2023-11-05,Yes,9,No
+TID10265,CUST1233,Male,54,Books,926.83,3,Debit Card,North,2024-06-05,No,8,Yes
+TID10266,CUST1158,Other,23,Clothing,422.53,3,Credit Card,East,2024-04-13,No,10,Yes
+TID10267,CUST1473,Female,61,Beauty,55.37,3,Credit Card,East,2023-07-31,No,3,No
+TID10268,CUST1163,Female,35,Furniture,44.19,3,Credit Card,West,2023-04-22,Yes,1,No
+TID10269,CUST1808,Female,47,Clothing,576.08,3,Debit Card,South,2023-01-08,No,8,No
+TID10270,CUST1765,Female,39,Beauty,395.93,4,Credit Card,East,2024-04-21,Yes,7,Yes
+TID10271,CUST1507,Male,50,Beauty,33.51,1,Debit Card,West,2024-04-04,No,5,No
+TID10272,CUST1015,Male,47,Clothing,585.34,1,Debit Card,East,2023-09-10,Yes,10,No
+TID10273,CUST1286,Other,34,Grocery,16.25,3,Digital Wallet,South,2024-06-09,No,7,Yes
+TID10274,CUST1250,Other,60,Furniture,788.44,4,Credit Card,West,2024-03-13,Yes,10,Yes
+TID10275,CUST1396,Female,49,Beauty,309.9,2,Digital Wallet,West,2024-10-22,No,4,No
+TID10276,CUST1214,Male,59,Beauty,45.06,2,Cash,West,2023-08-24,Yes,9,No
+TID10277,CUST1938,Female,68,Books,590.41,4,Cash,East,2023-11-02,Yes,10,Yes
+TID10278,CUST1269,Other,31,Beauty,400.7,3,Cash,South,2024-04-22,Yes,2,Yes
+TID10279,CUST1770,Other,27,Clothing,973.93,1,Debit Card,West,2024-11-09,Yes,9,No
+TID10280,CUST1876,Female,64,Beauty,546.48,4,Debit Card,North,2023-01-20,Yes,9,No
+TID10281,CUST1645,Other,68,Grocery,278.86,2,Debit Card,South,2023-08-04,Yes,5,Yes
+TID10282,CUST1396,Female,53,Furniture,710.89,2,Credit Card,North,2023-05-15,Yes,1,No
+TID10283,CUST1614,Male,51,Furniture,275.13,2,Digital Wallet,North,2023-05-09,Yes,7,Yes
+TID10284,CUST1094,Female,26,Beauty,904.72,3,Debit Card,West,2024-02-14,No,10,No
+TID10285,CUST1010,Male,59,Electronics,377.85,2,Digital Wallet,West,2024-02-26,Yes,10,Yes
+TID10286,CUST1233,Male,45,Electronics,552.12,4,Digital Wallet,East,2023-10-21,Yes,4,Yes
+TID10287,CUST1350,Other,28,Clothing,55.32,4,Digital Wallet,East,2023-09-03,No,9,No
+TID10288,CUST1567,Other,31,Electronics,428.99,2,Credit Card,East,2024-12-01,Yes,6,No
+TID10289,CUST1963,Other,56,Clothing,833.2,4,Credit Card,South,2024-07-09,No,3,Yes
+TID10290,CUST1195,Female,64,Books,806.62,2,Cash,East,2023-03-27,Yes,6,No
+TID10291,CUST1502,Female,36,Clothing,228.2,2,Cash,North,2024-07-09,No,10,No
+TID10292,CUST1414,Other,32,Electronics,229.95,1,Digital Wallet,East,2024-01-10,No,6,No
+TID10293,CUST1871,Female,45,Beauty,818.22,3,Cash,West,2024-03-21,Yes,5,Yes
+TID10294,CUST1489,Other,41,Books,930.75,3,Digital Wallet,East,2024-01-13,No,2,No
+TID10295,CUST1660,Female,25,Electronics,99.88,1,Credit Card,South,2024-01-25,Yes,10,No
+TID10296,CUST1763,Male,60,Clothing,452.81,1,Credit Card,South,2024-10-18,Yes,10,Yes
+TID10297,CUST1066,Male,26,Grocery,340.77,3,Credit Card,North,2023-02-20,Yes,2,No
+TID10298,CUST1056,Other,64,Furniture,871.34,2,Debit Card,South,2023-08-30,Yes,7,No
+TID10299,CUST1530,Female,50,Electronics,88.11,2,Digital Wallet,East,2023-10-21,No,2,Yes
+TID10300,CUST1456,Female,50,Clothing,215.07,3,Credit Card,West,2024-07-16,Yes,6,Yes
+TID10301,CUST1084,Male,36,Books,753.71,2,Digital Wallet,South,2023-09-23,No,5,No
+TID10302,CUST1962,Male,20,Electronics,56.04,1,Cash,North,2023-04-30,No,4,No
+TID10303,CUST1014,Other,27,Electronics,495.07,2,Cash,East,2024-12-12,Yes,7,Yes
+TID10304,CUST1084,Male,57,Furniture,444.9,2,Credit Card,North,2023-09-05,Yes,8,Yes
+TID10305,CUST1046,Other,64,Clothing,337.73,4,Digital Wallet,South,2023-03-11,Yes,4,No
+TID10306,CUST1616,Male,59,Grocery,397.6,4,Credit Card,South,2023-02-26,Yes,1,No
+TID10307,CUST1863,Male,18,Books,532.29,4,Cash,North,2024-01-17,No,1,No
+TID10308,CUST1260,Female,46,Clothing,165.56,2,Credit Card,East,2023-02-08,Yes,1,Yes
+TID10309,CUST1784,Male,67,Books,574.14,3,Digital Wallet,South,2024-03-18,No,1,No
+TID10310,CUST1808,Male,51,Electronics,806.41,1,Cash,West,2023-01-18,Yes,5,Yes
+TID10311,CUST1400,Other,68,Furniture,761.36,2,Debit Card,South,2023-12-18,Yes,4,Yes
+TID10312,CUST1856,Male,30,Furniture,158.13,3,Cash,East,2023-10-25,Yes,9,Yes
+TID10313,CUST1012,Other,18,Beauty,153.5,2,Debit Card,South,2023-10-10,Yes,3,No
+TID10314,CUST1206,Male,51,Grocery,271.83,1,Credit Card,North,2024-08-08,No,7,No
+TID10315,CUST1917,Male,46,Furniture,364.27,2,Credit Card,South,2023-04-20,No,8,No
+TID10316,CUST1268,Other,65,Electronics,411.41,1,Digital Wallet,South,2023-06-29,Yes,6,Yes
+TID10317,CUST1848,Female,64,Grocery,681.3,2,Debit Card,East,2024-06-27,No,10,No
+TID10318,CUST1720,Other,30,Clothing,61.4,1,Credit Card,North,2023-01-25,No,1,Yes
+TID10319,CUST1951,Other,65,Furniture,39.5,2,Debit Card,East,2023-02-26,Yes,8,Yes
+TID10320,CUST1085,Other,66,Grocery,394.95,1,Credit Card,South,2023-06-29,Yes,10,Yes
+TID10321,CUST1361,Female,46,Electronics,698.68,4,Cash,West,2023-08-20,No,3,Yes
+TID10322,CUST1471,Male,56,Beauty,197.47,2,Credit Card,South,2023-12-09,No,8,Yes
+TID10323,CUST1435,Other,41,Books,643.3,2,Digital Wallet,East,2024-04-21,No,4,Yes
+TID10324,CUST1671,Other,43,Books,263.53,3,Cash,West,2024-07-29,No,8,No
+TID10325,CUST1760,Female,34,Electronics,886.66,3,Digital Wallet,East,2024-03-30,Yes,1,Yes
+TID10326,CUST1987,Other,24,Electronics,896.21,1,Cash,East,2023-08-20,Yes,3,No
+TID10327,CUST1465,Male,30,Books,300.8,2,Debit Card,North,2023-10-16,No,6,Yes
+TID10328,CUST1826,Female,22,Beauty,233.84,1,Digital Wallet,West,2023-08-01,Yes,9,No
+TID10329,CUST1356,Male,43,Grocery,414.25,4,Credit Card,South,2023-09-15,No,2,No
+TID10330,CUST1989,Male,66,Books,244.33,3,Debit Card,East,2024-06-13,No,1,No
+TID10331,CUST1684,Female,20,Electronics,674.02,1,Credit Card,South,2024-11-17,Yes,10,No
+TID10332,CUST1539,Other,24,Furniture,826.93,1,Cash,North,2023-08-17,No,3,Yes
+TID10333,CUST1571,Male,66,Clothing,674.73,3,Cash,North,2023-08-14,No,4,Yes
+TID10334,CUST1838,Male,56,Beauty,825.23,2,Credit Card,West,2024-08-18,Yes,5,Yes
+TID10335,CUST1352,Male,18,Beauty,400.01,1,Credit Card,North,2024-03-10,Yes,3,Yes
+TID10336,CUST1165,Male,66,Furniture,160.54,3,Debit Card,North,2024-02-06,No,10,No
+TID10337,CUST1764,Female,34,Furniture,739.26,2,Credit Card,South,2024-09-13,No,2,No
+TID10338,CUST1998,Female,60,Electronics,363.67,4,Digital Wallet,North,2023-03-29,Yes,2,No
+TID10339,CUST1976,Male,42,Books,672.91,3,Digital Wallet,North,2024-08-06,No,7,Yes
+TID10340,CUST1020,Other,20,Grocery,274.29,1,Credit Card,East,2024-06-25,No,9,No
+TID10341,CUST1071,Male,32,Beauty,85.82,4,Digital Wallet,North,2024-11-14,Yes,10,Yes
+TID10342,CUST1928,Other,46,Beauty,992.62,2,Credit Card,East,2023-11-05,Yes,2,No
+TID10343,CUST1896,Male,60,Furniture,160.42,2,Debit Card,North,2023-12-09,Yes,7,No
+TID10344,CUST1063,Other,49,Books,988.48,3,Digital Wallet,North,2024-03-11,Yes,7,No
+TID10345,CUST1174,Male,43,Beauty,977.39,3,Digital Wallet,West,2023-06-26,Yes,7,No
+TID10346,CUST1483,Other,33,Grocery,794.85,3,Credit Card,West,2023-05-19,Yes,3,No
+TID10347,CUST1312,Male,42,Furniture,661.13,2,Digital Wallet,East,2023-07-13,No,7,Yes
+TID10348,CUST1769,Male,45,Grocery,579.92,4,Cash,North,2023-07-05,No,1,No
+TID10349,CUST1056,Other,26,Books,866.77,2,Debit Card,South,2023-08-06,Yes,10,Yes
+TID10350,CUST1110,Female,18,Beauty,292.99,1,Debit Card,West,2023-06-13,Yes,1,Yes
+TID10351,CUST1914,Other,46,Clothing,470.34,2,Digital Wallet,South,2023-06-10,No,5,Yes
+TID10352,CUST1376,Female,39,Beauty,621.29,1,Digital Wallet,West,2024-06-08,No,2,Yes
+TID10353,CUST1085,Male,33,Books,414.13,4,Cash,West,2024-08-23,No,9,Yes
+TID10354,CUST1424,Other,58,Beauty,430.35,3,Cash,North,2023-02-11,Yes,7,Yes
+TID10355,CUST1708,Other,68,Beauty,333.63,3,Digital Wallet,West,2023-07-29,Yes,4,Yes
+TID10356,CUST1364,Other,61,Electronics,566.41,2,Digital Wallet,South,2023-10-02,No,4,Yes
+TID10357,CUST1744,Female,68,Beauty,851.32,3,Cash,West,2023-10-06,Yes,2,No
+TID10358,CUST1101,Female,58,Beauty,205.52,4,Credit Card,East,2023-09-08,Yes,5,No
+TID10359,CUST1365,Male,24,Grocery,934.76,3,Cash,North,2023-11-06,Yes,4,Yes
+TID10360,CUST1169,Female,31,Clothing,690.64,2,Credit Card,North,2024-12-20,No,1,Yes
+TID10361,CUST1780,Female,46,Grocery,824.16,4,Debit Card,East,2023-05-20,No,8,Yes
+TID10362,CUST1412,Male,36,Grocery,558.41,1,Debit Card,East,2024-06-29,Yes,3,No
+TID10363,CUST1126,Other,36,Furniture,780.62,2,Cash,East,2024-06-13,Yes,6,No
+TID10364,CUST1973,Other,19,Electronics,21.12,1,Credit Card,West,2023-02-26,Yes,4,Yes
+TID10365,CUST1907,Male,58,Grocery,819.29,4,Cash,North,2023-04-22,Yes,9,Yes
+TID10366,CUST1376,Other,62,Books,44.94,2,Cash,East,2023-01-05,Yes,7,No
+TID10367,CUST1710,Female,32,Books,890.46,2,Credit Card,West,2024-02-14,No,9,No
+TID10368,CUST1934,Male,20,Beauty,992.0,4,Cash,East,2024-02-18,Yes,10,Yes
+TID10369,CUST1100,Male,28,Furniture,297.6,3,Debit Card,South,2023-07-01,Yes,3,Yes
+TID10370,CUST1322,Male,63,Electronics,214.27,2,Digital Wallet,South,2023-01-13,Yes,1,Yes
+TID10371,CUST1825,Other,47,Electronics,766.54,2,Digital Wallet,North,2023-12-05,No,5,Yes
+TID10372,CUST1501,Male,57,Beauty,256.76,1,Cash,West,2023-09-16,No,3,No
+TID10373,CUST1307,Male,35,Books,866.23,3,Credit Card,South,2023-03-31,Yes,6,No
+TID10374,CUST1134,Male,68,Clothing,107.33,1,Credit Card,South,2024-09-07,No,8,Yes
+TID10375,CUST1672,Other,65,Furniture,130.33,1,Debit Card,West,2024-11-28,No,4,Yes
+TID10376,CUST1720,Female,19,Beauty,979.26,3,Credit Card,East,2023-09-07,No,5,Yes
+TID10377,CUST1159,Male,49,Furniture,675.47,3,Credit Card,West,2023-09-12,No,5,No
+TID10378,CUST1611,Female,25,Books,847.65,4,Debit Card,East,2024-08-10,No,4,Yes
+TID10379,CUST1688,Other,39,Books,327.71,3,Cash,South,2023-04-18,No,4,Yes
+TID10380,CUST1900,Other,23,Clothing,678.1,2,Digital Wallet,South,2024-10-29,Yes,4,Yes
+TID10381,CUST1940,Other,29,Clothing,596.27,3,Debit Card,South,2024-08-16,No,4,No
+TID10382,CUST1858,Other,64,Electronics,605.13,4,Cash,North,2024-08-11,No,4,Yes
+TID10383,CUST1838,Female,57,Furniture,684.12,4,Debit Card,North,2024-04-29,Yes,5,No
+TID10384,CUST1181,Male,53,Furniture,577.48,4,Cash,North,2023-09-15,Yes,2,Yes
+TID10385,CUST1994,Other,32,Books,431.92,3,Debit Card,West,2024-09-30,Yes,2,Yes
+TID10386,CUST1891,Other,45,Electronics,279.54,3,Cash,South,2023-10-09,Yes,9,Yes
+TID10387,CUST1764,Female,69,Beauty,769.74,1,Debit Card,South,2023-03-29,No,2,No
+TID10388,CUST1363,Female,66,Furniture,230.14,1,Cash,West,2023-07-23,No,6,Yes
+TID10389,CUST1664,Other,62,Electronics,693.89,2,Debit Card,North,2023-01-16,No,2,Yes
+TID10390,CUST1015,Male,35,Electronics,237.17,1,Digital Wallet,West,2023-05-31,No,5,No
+TID10391,CUST1956,Male,19,Books,627.2,2,Digital Wallet,North,2023-09-11,Yes,4,No
+TID10392,CUST1914,Other,30,Electronics,748.34,4,Credit Card,South,2023-07-07,No,7,No
+TID10393,CUST1126,Female,62,Clothing,222.62,1,Cash,East,2023-11-25,No,7,Yes
+TID10394,CUST1687,Other,32,Clothing,64.64,3,Debit Card,North,2024-06-27,Yes,6,No
+TID10395,CUST1901,Other,37,Grocery,135.32,1,Cash,South,2024-02-01,No,10,Yes
+TID10396,CUST1492,Female,46,Books,607.97,2,Digital Wallet,South,2024-05-31,No,5,No
+TID10397,CUST1019,Other,59,Beauty,850.2,1,Cash,East,2024-04-03,No,1,No
+TID10398,CUST1478,Other,46,Grocery,49.77,4,Debit Card,South,2023-11-26,No,3,No
+TID10399,CUST1884,Other,20,Clothing,735.48,3,Cash,South,2023-06-18,Yes,9,Yes
+TID10400,CUST1297,Female,36,Grocery,344.61,2,Debit Card,North,2024-11-23,Yes,1,Yes
+TID10401,CUST1495,Male,20,Books,481.14,3,Digital Wallet,North,2024-01-01,Yes,5,Yes
+TID10402,CUST1563,Male,31,Books,929.22,3,Digital Wallet,East,2023-06-27,Yes,2,Yes
+TID10403,CUST1071,Female,57,Electronics,335.31,2,Digital Wallet,East,2024-10-16,Yes,4,Yes
+TID10404,CUST1370,Male,21,Furniture,468.01,3,Credit Card,South,2023-12-28,No,1,Yes
+TID10405,CUST1633,Other,69,Electronics,18.61,3,Digital Wallet,North,2024-09-30,No,3,Yes
+TID10406,CUST1512,Male,28,Books,86.19,1,Cash,East,2023-02-09,Yes,10,Yes
+TID10407,CUST1705,Other,48,Clothing,262.3,3,Credit Card,East,2024-02-20,Yes,7,Yes
+TID10408,CUST1223,Male,60,Beauty,32.71,3,Digital Wallet,West,2023-12-21,Yes,10,No
+TID10409,CUST1361,Female,49,Clothing,633.22,3,Cash,East,2023-09-12,No,3,No
+TID10410,CUST1905,Male,44,Electronics,429.27,3,Cash,South,2023-05-23,Yes,4,Yes
+TID10411,CUST1733,Male,47,Beauty,550.4,2,Cash,North,2024-12-10,No,2,Yes
+TID10412,CUST1192,Male,60,Books,178.77,4,Debit Card,East,2024-07-30,No,3,Yes
+TID10413,CUST1506,Female,19,Clothing,299.45,1,Credit Card,West,2023-01-11,No,9,Yes
+TID10414,CUST1317,Male,66,Books,665.51,3,Cash,North,2024-09-11,No,3,No
+TID10415,CUST1579,Female,26,Beauty,965.48,3,Debit Card,East,2023-01-26,Yes,5,No
+TID10416,CUST1866,Other,45,Beauty,55.16,2,Digital Wallet,West,2024-02-25,No,2,Yes
+TID10417,CUST1553,Male,48,Clothing,890.93,4,Cash,East,2024-10-24,No,4,No
+TID10418,CUST1221,Female,51,Books,579.0,3,Debit Card,North,2023-08-09,Yes,7,No
+TID10419,CUST1913,Female,32,Grocery,566.1,2,Cash,North,2024-05-10,No,7,Yes
+TID10420,CUST1666,Male,65,Books,502.78,1,Credit Card,North,2023-08-25,No,3,Yes
+TID10421,CUST1039,Other,42,Beauty,74.05,1,Credit Card,South,2023-08-25,No,5,Yes
+TID10422,CUST1047,Female,53,Books,94.43,3,Digital Wallet,East,2023-08-07,Yes,1,Yes
+TID10423,CUST1226,Male,25,Electronics,602.91,3,Cash,South,2024-05-01,No,10,No
+TID10424,CUST1837,Other,26,Grocery,344.25,4,Debit Card,North,2024-04-05,No,10,Yes
+TID10425,CUST1118,Female,54,Furniture,917.68,4,Digital Wallet,West,2024-10-24,Yes,10,No
+TID10426,CUST1565,Female,65,Electronics,409.56,3,Cash,East,2024-09-26,Yes,1,Yes
+TID10427,CUST1745,Other,62,Furniture,147.57,2,Digital Wallet,South,2023-05-24,No,5,No
+TID10428,CUST1744,Other,56,Clothing,716.15,4,Debit Card,East,2023-07-08,No,10,Yes
+TID10429,CUST1920,Male,49,Furniture,296.89,3,Digital Wallet,West,2023-09-12,Yes,9,Yes
+TID10430,CUST1918,Male,69,Books,527.84,4,Digital Wallet,South,2023-03-09,No,1,No
+TID10431,CUST1740,Female,34,Furniture,699.34,3,Digital Wallet,North,2024-09-07,Yes,1,No
+TID10432,CUST1609,Other,52,Beauty,900.76,1,Cash,South,2023-12-02,No,4,No
+TID10433,CUST1238,Other,54,Electronics,793.23,3,Debit Card,East,2024-11-01,Yes,4,Yes
+TID10434,CUST1728,Other,36,Electronics,677.98,1,Credit Card,East,2024-02-13,No,2,No
+TID10435,CUST1292,Female,61,Furniture,681.24,4,Cash,East,2023-10-27,Yes,9,No
+TID10436,CUST1955,Other,46,Electronics,946.2,3,Credit Card,East,2024-08-24,Yes,9,No
+TID10437,CUST1951,Other,24,Beauty,299.34,4,Credit Card,North,2023-12-23,Yes,2,No
+TID10438,CUST1070,Female,45,Electronics,6.11,1,Cash,South,2023-09-13,Yes,9,No
+TID10439,CUST1398,Male,26,Furniture,275.59,3,Cash,North,2023-12-19,Yes,6,No
+TID10440,CUST1254,Male,45,Grocery,221.8,4,Debit Card,North,2024-06-04,No,8,No
+TID10441,CUST1763,Female,23,Grocery,663.53,1,Debit Card,North,2024-06-07,No,10,No
+TID10442,CUST1786,Other,46,Clothing,635.54,4,Digital Wallet,East,2024-11-24,Yes,4,No
+TID10443,CUST1654,Female,34,Electronics,595.49,2,Credit Card,East,2023-10-11,No,2,Yes
+TID10444,CUST1239,Male,33,Furniture,21.16,1,Debit Card,East,2023-11-08,No,2,Yes
+TID10445,CUST1462,Male,40,Electronics,730.13,1,Digital Wallet,South,2023-04-09,No,9,No
+TID10446,CUST1190,Female,48,Books,326.91,1,Debit Card,West,2023-07-16,No,1,Yes
+TID10447,CUST1882,Female,20,Beauty,666.73,3,Cash,East,2024-04-26,No,7,Yes
+TID10448,CUST1364,Male,38,Electronics,558.8,3,Debit Card,South,2023-08-14,No,3,No
+TID10449,CUST1896,Female,43,Electronics,346.02,3,Credit Card,East,2024-09-06,Yes,3,No
+TID10450,CUST1373,Male,53,Grocery,138.9,2,Debit Card,East,2024-09-09,No,2,No
+TID10451,CUST1266,Female,59,Beauty,98.95,2,Credit Card,North,2023-12-31,No,10,No
+TID10452,CUST1565,Female,54,Furniture,832.36,1,Cash,North,2024-01-03,No,6,No
+TID10453,CUST1798,Female,39,Electronics,918.81,2,Credit Card,North,2024-07-23,Yes,10,No
+TID10454,CUST1096,Male,59,Grocery,651.54,4,Debit Card,South,2024-08-12,No,2,Yes
+TID10455,CUST1714,Female,29,Clothing,107.92,1,Digital Wallet,West,2023-03-16,No,10,No
+TID10456,CUST1178,Male,59,Beauty,405.02,1,Cash,West,2023-02-11,No,4,Yes
+TID10457,CUST1262,Male,30,Grocery,730.29,4,Debit Card,South,2024-02-26,Yes,10,No
+TID10458,CUST1942,Female,28,Grocery,780.92,1,Cash,East,2023-06-30,No,9,No
+TID10459,CUST1684,Female,33,Grocery,122.63,2,Cash,South,2024-06-28,Yes,9,Yes
+TID10460,CUST1836,Male,25,Electronics,5.03,3,Debit Card,East,2023-03-12,No,6,No
+TID10461,CUST1892,Male,57,Electronics,713.58,4,Debit Card,South,2024-07-21,Yes,4,No
+TID10462,CUST1719,Other,57,Clothing,359.81,2,Digital Wallet,South,2023-04-15,Yes,7,Yes
+TID10463,CUST1751,Male,62,Books,258.21,4,Cash,South,2023-07-19,Yes,1,No
+TID10464,CUST1181,Other,19,Books,17.83,4,Cash,West,2023-04-11,No,4,Yes
+TID10465,CUST1875,Other,47,Books,542.6,1,Debit Card,North,2023-11-03,Yes,5,No
+TID10466,CUST1432,Other,47,Beauty,851.89,1,Credit Card,South,2024-08-08,Yes,8,No
+TID10467,CUST1486,Female,29,Beauty,957.84,2,Debit Card,West,2024-11-13,Yes,2,Yes
+TID10468,CUST1747,Female,27,Clothing,567.92,4,Cash,North,2024-01-12,Yes,5,No
+TID10469,CUST1616,Male,61,Beauty,516.89,1,Debit Card,North,2024-10-16,No,6,Yes
+TID10470,CUST1901,Other,28,Books,89.63,1,Digital Wallet,South,2024-11-08,No,5,Yes
+TID10471,CUST1389,Female,32,Books,551.13,4,Credit Card,East,2024-02-03,No,9,Yes
+TID10472,CUST1324,Female,33,Grocery,383.08,2,Debit Card,East,2023-08-09,No,10,No
